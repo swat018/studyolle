@@ -22,7 +22,7 @@ public class Account {
 
     private String password;
 
-    private boolean emailVarified;
+    private boolean emailVerified;
 
     private String emailCheckToken;
 
@@ -56,7 +56,7 @@ public class Account {
     }
 
     public void completeSingUp() {
-        this.emailVarified = true;
+        this.emailVerified = true;
         this.joinedAt = LocalDateTime.now();
     }
 
