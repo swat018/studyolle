@@ -14,7 +14,6 @@ public class MainController {
         if (account != null) {
             model.addAttribute(account);
         }
-
         return "index";
     }
 
