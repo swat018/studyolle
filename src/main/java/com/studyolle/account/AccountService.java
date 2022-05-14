@@ -58,13 +58,6 @@ public class AccountService implements UserDetailsService {
                 account.getPassword(),
                 List.of(new SimpleGrantedAuthority("ROLE_USER")));
         SecurityContextHolder.getContext().setAuthentication(token);
-//
-//        UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(
-//                username, password);
-//
-//        Authentication authentication = authenticationManager.authenticate(token);
-//        SecurityContext context = SecurityContextHolder.getContext();
-//        context.setAuthentication(token);
     }
 
     @Override
