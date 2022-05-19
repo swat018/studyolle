@@ -3,6 +3,7 @@ package com.studyolle.settings;
 import com.studyolle.WithAccount;
 import com.studyolle.account.AccountRepository;
 import com.studyolle.domain.Account;
+import lombok.With;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -121,4 +122,32 @@ class SettingsControllerTest {
                 .andExpect(model().attributeExists("passwordForm"))
                 .andExpect(model().hasErrors());
     }
+
+    @WithAccount("jinwoo")
+    @DisplayName("알람 수정 폼")
+    @Test
+    void updateNotifications() throws Exception {
+        mockMvc.perform(get(SettingsController.SETTINGS_NOTIFICATIONS_URL))
+                .andExpect(status().isOk())
+                .andExpect(model().attributeExists("account"))
+                .andExpect(model().attributeExists("notifications"));
+    }
+
+    @WithAccount("jinwoo")
+    @DisplayName("알람 수정 - 입력값 정상")
+    @Test
+    void updateNotification_success() throws Exception {
+        mockMvc.perform(post(SettingsController.SETTINGS_NOTIFICATIONS_URL)
+                        .param("studyCreatedByEmail", "true")
+                        .param("studyCreatedByWeb", "true")
+                        .with(csrf()))
+                .andExpect(status().is3xxRedirection())
+                .andExpect(redirectedUrl(SettingsController.SETTINGS_NOTIFICATIONS_URL))
+                .andExpect(flash().attributeExists("message"));
+
+        Account jinwoo = accountRepository.findByNickname("jinwoo");
+        assertTrue(jinwoo.isStudyCreateByEmail());
+        assertTrue(jinwoo.isStudyCreateByWeb());
+    }
+
 }
