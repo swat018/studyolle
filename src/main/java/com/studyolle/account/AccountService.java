@@ -96,7 +96,12 @@ public class AccountService implements UserDetailsService {
     }
 
     public void updateNotifications(Account account, Notifications notifications) {
-        modelMapper.map(notifications, account);
+        account.setStudyCreateByEmail(notifications.isStudyCreatedByEmail());
+        account.setStudyCreateByWeb(notifications.isStudyCreatedByWeb());
+        account.setStudyUpdateByEmail(notifications.isStudyUpdatedByEmail());
+        account.setStudyUpdateByWeb(notifications.isStudyUpdatedByWeb());
+        account.setStudyEnrollmentResultByEmail(notifications.isStudyEnrollmentResultByEmail());
+        account.setStudyEnrollmentResultByWeb(notifications.isStudyEnrollmentResultByWeb());
         accountRepository.save(account);
     }
 
