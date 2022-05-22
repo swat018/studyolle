@@ -35,6 +35,8 @@ public class SettingsController {
     static final String SETTINGS_NOTIFICATIONS_URL = "/settings/notifications";
     static final String SETTINGS_ACCOUNT_VIEW_NAME = "settings/account";
     static final String SETTINGS_ACCOUNT_URL = "/settings/account";
+    static final String SETTINGS_TAGS_VIEW_NAME = "settings/tags";
+    static final String SETTINGS_TAGS_URL = "/settings/tags";
 
 
     private final AccountService accountService;
@@ -130,4 +132,12 @@ public class SettingsController {
         attributes.addFlashAttribute("message", "닉넴임을 수정했습니다.");
         return "redirect:" + SETTINGS_ACCOUNT_URL;
     }
+
+    @GetMapping(SETTINGS_TAGS_URL)
+    public String updateTags(@CurrentUser Account account, Model model) {
+        model.addAttribute(account);
+        return SETTINGS_TAGS_VIEW_NAME;
+    }
+
+
 }
