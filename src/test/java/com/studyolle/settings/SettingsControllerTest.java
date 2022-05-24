@@ -208,7 +208,7 @@ class SettingsControllerTest {
     }
 
     @WithAccount("jinwoo")
-    @DisplayName("태구 수정 폼")
+    @DisplayName("태그 수정 폼")
     @Test
     void updateTagsForm() throws Exception {
         mockMvc.perform(get(SettingsController.SETTINGS_TAGS_URL))
