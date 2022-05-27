@@ -79,7 +79,7 @@ public class AccountController {
             return "account/check-email";
         }
 
-        accountService.sendSingUpConfirmEmail(account);
+        accountService.sendSignUpConfirmEmail(account);
         return "redirect:/";
     }
 

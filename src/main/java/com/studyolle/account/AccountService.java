@@ -37,7 +37,7 @@ public class AccountService implements UserDetailsService {
 
     public Account processNewAccount(SignUpForm signUpForm) {
         Account newAccount = saveNewAccount(signUpForm);
-        sendSingUpConfirmEmail(newAccount);
+        sendSignUpConfirmEmail(newAccount);
         return newAccount;
     }
 
@@ -48,7 +48,7 @@ public class AccountService implements UserDetailsService {
         return accountRepository.save(account);
     }
 
-    public void sendSingUpConfirmEmail(Account newAccount) {
+    public void sendSignUpConfirmEmail(Account newAccount) {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(newAccount.getEmail());
         mailMessage.setSubject("스터디올래, 회원 가입 인증");
