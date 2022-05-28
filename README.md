@@ -51,3 +51,4 @@
   - 
   - PostgreSQL 설치 및 설정
   - SMTP 설정
+  - EmailService 추상화
