@@ -53,3 +53,6 @@
   - SMTP 설정
   - EmailService 추상화
   - HTML 이메일 전송하기
+- 스터디
+  - 
+  - 스터디 도메인
