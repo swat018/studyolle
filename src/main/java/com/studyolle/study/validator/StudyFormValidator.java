@@ -22,7 +22,7 @@ public class StudyFormValidator implements Validator {
     public void validate(Object target, Errors errors) {
         StudyForm studyForm = (StudyForm)target;
         if(studyRepository.existsByPath(studyForm.getPath())){
-            errors.rejectValue("path", "wrong.path", "당 스터디 경로값을 사용할 수 없습니다.");
+            errors.rejectValue("path", "wrong.path", "해당 스터디 경로값을 사용할 수 없습니다.");
         }
     }
 }
