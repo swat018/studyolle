@@ -246,4 +246,12 @@
     </nav>
 </div>
 
+<div th:fragment="member-list (members, isManager)" class="orw px-3 justify-content-center">
+    <ul class="list-unstyled col-10">
+        <li class="media mt-3" th:each="member: ${member}">
+            <svg
+        </li>
+    </ul>
+</div>
+
 </html>
