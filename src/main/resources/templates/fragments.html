@@ -236,7 +236,7 @@
                 </span>
                 <span th:each="zone: ${study.zones}" class="font-weight-light text-monospace badge badge-primary mr-3">
                     <a th:href="@{'/search/zone/' + ${zone.id}}" class="text-decoration-none text-white">
-                        <i class="fa fa-globe"></i> <span th:text="${zone.localNameOfCity}">City</span>
+                        <i class="fa fa-globe"></i> <span th:text="${zone.localNameCity}">City</span>
                     </a>
                 </span>
             </p>
@@ -297,7 +297,7 @@
     <a class="list-group-item list-group-item-action" th:classappend="${currentMenu == 'tags'}? active"
        href="#" th:href="@{'/study/' + ${study.path} + '/settings/tags'}">스터디 주제</a>
     <a class="list-group-item list-group-item-action" th:classappend="${currentMenu == 'zones'}? active"
-       href="#" th:href="@{'/study/' + ${study.path} + '/settigns/zones'}">활동 지역</a>
+       href="#" th:href="@{'/study/' + ${study.path} + '/settings/zones'}">활동 지역</a>
     <a class="list-group-item list-group-item-action list-group-item-danger" th:classappend="${currentMenu == 'study'}? active"
        href="#" th:href="@{'/study/' + ${study.path} + '/settings/study'}">스터디</a>
 </div>
@@ -314,5 +314,157 @@
         $('[data-toggle="tooltip"]').tooltip()
     })
 </script>
+
+<script src="/node_modules/@yaireo/tagify/dist/tagify.min.js"></script>
+<script type="application/javascript" th:inline="javascript">
+    $(function () {
+        var studyPath = "[(${study.path})]"
+        function tagRequest(url, tagTitle) {
+            $.ajax({
+                dataType: "json",
+                autocomplete: {
+                    enabled: true,
+                    rightKey: true,
+                },
+                contentType: "application/json; charset=utf-8",
+                method: "POST",
+                url: "/study/" + studyPath + "/settings/tags" + url,
+                data: JSON.stringify({'tagTitle': tagTitle})
+            }).done(function (data, status) {
+                console.log("${data} and status is ${status}");
+            });
+        }
+
+        function onAdd(e) {
+            tagRequest("/add", e.detail.data.value);
+        }
+
+        function onRemove(e) {
+            tagRequest("/remove", e.detail.data.value);
+        }
+
+        var tagInput = document.querySelector("#tags");
+
+        var tagify = new Tagify(tagInput, {
+            pattern: /^.{0,20}$/,
+            whitelist: JSON.parse(document.querySelector("#whitelist").textContent),
+            dropdown: {
+                position: "tagInput",
+                enabled: 0,     // suggest tags after a single character input
+            }   // map tags
+        });
+
+
+        tagify.on("add", onAdd);
+        tagify.on("remove", onRemove);
+
+        // // add a class to Tagify's input element
+        // tagify.DOM.input.classList.add('form-control');
+        // // re-place Tagify's input element outside of the element (tagify.DOM.scope), just before it
+        // tagify.DOM.scope.parentNode.insertBefore(tagify.DOM.input, tagify.DOM.scope);
+    });
+</script>
+
+<div th:fragment="update-tags (baseUrl)">
+    <script src="/node_modules/@yaireo/tagify/dist/tagify.min.js"></script>
+    <script type="application/javascript" th:inline="javascript">
+        $(function () {
+            function tagRequest(url, tagTitle) {
+                $.ajax({
+                    dataType: "json",
+                    autocomplete: {
+                        enabled: true,
+                        rightKey: true,
+                    },
+                    contentType: "application/json; charset=utf-8",
+                    method: "POST",
+                    url: "[(${baseUrl})]" + url,
+                    data: JSON.stringify({'tagTitle': tagTitle})
+                }).done(function (data, status) {
+                    console.log("${data} and status is ${status}");
+                });
+            }
+
+            function onAdd(e) {
+                tagRequest("/add", e.detail.data.value);
+            }
+
+            function onRemove(e) {
+                tagRequest("/remove", e.detail.data.value);
+            }
+
+            var tagInput = document.querySelector("#tags");
+
+            var tagify = new Tagify(tagInput, {
+                pattern: /^.{0,20}$/,
+                whitelist: JSON.parse(document.querySelector("#whitelist").textContent),
+                dropdown: {
+                    position: "tagInput",
+                    enabled: 0,     // suggest tags after a single character input
+                }   // map tags
+            });
+
+
+            tagify.on("add", onAdd);
+            tagify.on("remove", onRemove);
+
+            // // add a class to Tagify's input element
+            // tagify.DOM.input.classList.add('form-control');
+            // // re-place Tagify's input element outside of the element (tagify.DOM.scope), just before it
+            // tagify.DOM.scope.parentNode.insertBefore(tagify.DOM.input, tagify.DOM.scope);
+        });
+    </script>
+</div>
+
+<div th:fragment="update-zones (baseUrl)">
+    <script src="/node_modules/@yaireo/tagify/dist/tagify.min.js"></script>
+    <script type="application/javascript" th:inline="javascript">
+        $(function () {
+            function tagRequest(url, zoneName) {
+                $.ajax({
+                    dataType: "json",
+                    autocomplete: {
+                        enabled: true,
+                        rightKey: true,
+                    },
+                    contentType: "application/json; charset=utf-8",
+                    method: "POST",
+                    url: "[(${baseUrl})]" + url,
+                    data: JSON.stringify({'zoneName': zoneName})
+                }).done(function (data, status) {
+                    console.log("${data} and status is ${status}");
+                });
+            }
+
+            function onAdd(e) {
+                tagRequest("/add", e.detail.data.value);
+            }
+
+            function onRemove(e) {
+                tagRequest("/remove", e.detail.data.value);
+            }
+
+            var tagInput = document.querySelector("#zones");
+
+            var tagify = new Tagify(tagInput, {
+                pattern: /^.{0,20}$/,
+                whitelist: JSON.parse(document.querySelector("#whitelist").textContent),
+                dropdown: {
+                    position: "tagInput",
+                    enabled: 0,     // suggest tags after a single character input
+                }   // map tags
+            });
+
+
+            tagify.on("add", onAdd);
+            tagify.on("remove", onRemove);
+
+            // // add a class to Tagify's input element
+            // tagify.DOM.input.classList.add('form-control');
+            // // re-place Tagify's input element outside of the element (tagify.DOM.scope), just before it
+            // tagify.DOM.scope.parentNode.insertBefore(tagify.DOM.input, tagify.DOM.scope);
+        });
+    </script>
+</div>
 
 </html>
