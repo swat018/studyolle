@@ -90,10 +90,6 @@ public class Study {
         return this.managers.contains(userAccount.getAccount());
     }
 
-    public void addMember(Account account) {
-        this.members.add(account);
-    }
-
     public String getImage() {
         return image != null ? image : "/images/default_banner.png";
     }
@@ -142,7 +138,7 @@ public class Study {
         return !this.published; // TODO 모임을 했던 스터디는 삭제할 수 없다.
     }
 
-    public void addMemeber(Account account) {
+    public void addMember(Account account) {
         this.getMembers().add(account);
     }
 
