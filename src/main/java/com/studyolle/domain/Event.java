@@ -7,6 +7,7 @@ import org.hibernate.validator.constraints.br.CPF;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Getter @Setter @EqualsAndHashCode(of = "id")
@@ -40,8 +41,13 @@ public class Event {
     private LocalDateTime endDateTime;
 
     @Column
+    private Integer limitOfEnrollments;
+
+    @OneToMany(mappedBy = "event")
+    private List<Enrollment> enrollments;
+
 
     @Enumerated(EnumType.STRING)
-    private Integer limitOfEnrollments;
+    private EventType eventType;
 
 }
