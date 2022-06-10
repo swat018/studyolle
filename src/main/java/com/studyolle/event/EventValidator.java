@@ -28,7 +28,7 @@ public class EventValidator implements Validator {
         }
 
         if(isNotValidStartDateTime(eventForm)) {
-
+            errors.rejectValue("startDateTime", "worng.datetime", "모임 시작 일시를 정확히 입력하세요.");
         }
     }
 

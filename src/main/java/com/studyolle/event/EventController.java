@@ -26,7 +26,7 @@ public class EventController {
     private final ModelMapper modelMapper;
     private final EventValidator eventValidator;
 
-    @InitBinder("evnetForm")
+    @InitBinder("eventForm")
     public void initBinder(WebDataBinder webDataBinder) {
         webDataBinder.addValidators(eventValidator);
     }
@@ -40,14 +40,14 @@ public class EventController {
         return "event/form";
     }
 
-    @PostMapping("/new-evnet")
+    @PostMapping("/new-event")
     public String newEventSubmit(@CurrentAccount Account account, @PathVariable String path,
                                  @Valid EventForm eventForm, Errors errors, Model model) {
         Study study = studyService.getStudyToUpdateStatus(account, path);
         if(errors.hasErrors()) {
             model.addAttribute(account);
             model.addAttribute(study);
-            return "evnet/form";
+            return "event/form";
         }
 
         Event event = eventService.createEvent(modelMapper.map(eventForm, Event.class), study, account);

@@ -9,7 +9,7 @@
             <h2><a th:href="@{'/study/' + ${study.path}}"><span th:text="${study.title}">스터디</span></a> / 새 모임 만들기</h2>
         </div>
         <div class="row justify-content-center">
-            <form class="needs-validation col-sm-10" th:action="@{'/study/' + ${study.path} + 'new-event'}"
+            <form class="needs-validation col-sm-10" th:action="@{'/study/' + ${study.path} + '/new-event'}"
                   th:object="${eventForm}" method="post" novalidate>
                 <div class="form-group">
                     <label for="title">모임 이름</label>
