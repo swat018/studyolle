@@ -26,7 +26,7 @@ class StudySettingsControllerTest extends StudyControllerTest{
     @WithAccount("jinwoo")
     @DisplayName("스터디 소개 수정 폼 조회 - 실패 (권한 없는 유저)")
     void updateDescriptionForm_fail() throws Exception {
-        Account swat018 = creatAccount("swat018");
+        Account swat018 = createAccount("swat018");
         Study study = createStudy("test-study", swat018);
 
         mockMvc.perform(get("/study/" + study.getPath() + "/settings/description"))

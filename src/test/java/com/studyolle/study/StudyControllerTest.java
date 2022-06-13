@@ -24,7 +24,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @RequiredArgsConstructor
-class StudyControllerTest {
+public class StudyControllerTest {
 
     @Autowired
     protected MockMvc mockMvc;
@@ -116,7 +116,7 @@ class StudyControllerTest {
     @WithAccount("jinwoo")
     @DisplayName("스터디 가입")
     void joinStudy() throws Exception {
-        Account swat018 = creatAccount("swat018");
+        Account swat018 = createAccount("swat018");
 
         Study study = createStudy("test-study", swat018);
 
@@ -132,7 +132,7 @@ class StudyControllerTest {
     @WithAccount("jinwoo")
     @DisplayName("스터디 탈퇴")
     void leaveStudy() throws Exception {
-        Account swat018 = creatAccount("swat018");
+        Account swat018 = createAccount("swat018");
         Study study = createStudy("test-study", swat018);
 
         Account jinwoo = accountRepository.findByNickname("jinwoo");
@@ -153,7 +153,7 @@ class StudyControllerTest {
         return study;
     }
 
-    protected Account creatAccount(String nickname) {
+    protected Account createAccount(String nickname) {
         Account jinwoo = new Account();
         jinwoo.setNickname(nickname);
         jinwoo.setEmail(nickname + "@email.com");
