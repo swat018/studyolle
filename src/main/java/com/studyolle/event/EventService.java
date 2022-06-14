@@ -69,7 +69,7 @@ public class EventService {
         enrollment.setAttended(true);
     }
 
-    public void cancelEnrollment(Enrollment enrollment) {
+    public void cancelCheckInEnrollment(Enrollment enrollment) {
         enrollment.setAttended(false);
     }
 }

@@ -168,10 +168,10 @@ public class EventController {
     }
 
     @GetMapping("/events/{eventId}/enrollments/{enrollmentId}/cancel-checkin")
-    public Strring cancelCheckInEnrollment(@CurrentAccount Account account, @PathVariable String path,
+    public String cancelCheckInEnrollment(@CurrentAccount Account account, @PathVariable String path,
                                            @PathVariable("eventId") Event event, @PathVariable("enrollmentId") Enrollment enrollment) {
         Study study = studyService.getStudyToUpdate(account, path);
-        eventService.cancleCheckInEnrollment(enrollment);
+        eventService.cancelCheckInEnrollment(enrollment);
         return "redirect:/study/" + study.getEncodedPath() + "/events/" + event.getId();
     }
 
