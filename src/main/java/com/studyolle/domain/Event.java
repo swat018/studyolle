@@ -50,6 +50,7 @@ public class Event {
     private Integer limitOfEnrollments;
 
     @OneToMany(mappedBy = "event")
+    @OrderBy("enrolledAt")
     private List<Enrollment> enrollments = new ArrayList<>();
 
 
@@ -57,11 +58,11 @@ public class Event {
     private EventType eventType;
 
     public boolean isEnrollableFor(UserAccount userAccount) {
-        return isNotClosed() && !isAlreadyEnrolled(userAccount);
+        return isNotClosed() && !isAttended(userAccount) && !isAlreadyEnrolled(userAccount);
     }
 
     public boolean isDisenrollableFor(UserAccount userAccount) {
-        return isNotClosed() && isAlreadyEnrolled(userAccount);
+        return isNotClosed() && !isAttended(userAccount) && isAlreadyEnrolled(userAccount);
     }
 
     public boolean isNotClosed() {
@@ -114,6 +115,7 @@ public class Event {
     public boolean canAccept(Enrollment enrollment) {
         return this.eventType == EventType.CONFIRMATIVE
                 && this.enrollments.contains(enrollment)
+                && this.limitOfEnrollments > this.getNumberOfAcceptedEnrollments()
                 && !enrollment.isAttended()
                 && !enrollment.isAccepted();
     }
@@ -156,5 +158,16 @@ public class Event {
         return null;
     }
 
+    public void accept(Enrollment enrollment) {
+        if (this.eventType == EventType.CONFIRMATIVE && this.limitOfEnrollments > this.getNumberOfAcceptedEnrollments()) {
+            enrollment.setAccepted(true);
+        }
+    }
+
+    public void reject(Enrollment enrollment) {
+        if (this.eventType == EventType.CONFIRMATIVE) {
+            enrollment.setAccepted(false);
+        }
+    }
 
 }
