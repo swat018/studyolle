@@ -25,7 +25,7 @@ public class StudyService {
     public Study createNewStudy(Study study, Account account) {
         Study newStudy = repository.save(study);
         newStudy.addManager(account);
-        eventPublisher.publishEvent(new StudyCreatedEvent(newStudy));
+//        eventPublisher.publishEvent(new StudyCreatedEvent(newStudy));
         return newStudy;
     }
 
