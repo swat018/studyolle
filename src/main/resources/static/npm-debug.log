@@ -1,0 +1,2907 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node/node',
+1 verbose cli   '/Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/package.json
+5 warn package.json static@1.0.0 No description
+6 warn package.json static@1.0.0 No repository field.
+7 warn package.json static@1.0.0 No README data
+8 verbose install where, deps [ '/Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static',
+8 verbose install   [ '@yaireo/tagify',
+8 verbose install     'bootstrap',
+8 verbose install     'cropper',
+8 verbose install     'font-awesome',
+8 verbose install     'jdenticon',
+8 verbose install     'jquery',
+8 verbose install     'jquery-cropper',
+8 verbose install     'moment',
+8 verbose install     'popper',
+8 verbose install     'summernote' ] ]
+9 verbose install where, peers [ '/Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static',
+9 verbose install   [] ]
+10 verbose installManyTop reading for lifecycle /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/package.json
+11 info preinstall static@1.0.0
+12 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/bootstrap/package.json
+13 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/cropper/package.json
+14 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/cropperjs/package.json
+15 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/font-awesome/package.json
+16 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jquery/package.json
+17 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jquery-cropper/package.json
+18 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/moment/package.json
+19 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/popper/package.json
+20 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/popper.js/package.json
+21 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/prop-types/package.json
+22 verbose installManyTop reading scoped package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/@yaireo/tagify/package.json
+23 info package.json popper@1.0.1 license should be a valid SPDX license expression
+24 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/package.json
+25 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/bootstrap/package.json
+26 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/cropper/package.json
+27 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/cropperjs/package.json
+28 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/font-awesome/package.json
+29 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jquery/package.json
+30 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jquery-cropper/package.json
+31 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/moment/package.json
+32 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/popper/package.json
+33 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/popper.js/package.json
+34 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/prop-types/package.json
+35 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/.bin/popper/package.json
+36 verbose targetResolver reading package data from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/@yaireo/tagify/package.json
+37 verbose already installed skipping moment@^2.29.3 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+38 verbose already installed skipping popper@^1.0.1 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+39 silly cache add args [ 'summernote@^0.8.20', null ]
+40 verbose cache add spec summernote@^0.8.20
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'summernote@^0.8.20',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'summernote',
+41 silly cache add   rawSpec: '^0.8.20',
+41 silly cache add   spec: '>=0.8.20 <0.9.0',
+41 silly cache add   type: 'range' }
+42 silly addNamed summernote@>=0.8.20 <0.9.0
+43 verbose addNamed ">=0.8.20 <0.9.0" is a valid semver range for summernote
+44 silly addNameRange { name: 'summernote', range: '>=0.8.20 <0.9.0', hasData: false }
+45 silly mapToRegistry name summernote
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'summernote',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'summernote',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/summernote
+50 verbose addNameRange registry:https://registry.npmjs.org/summernote not in flight; fetching
+51 verbose already installed skipping @yaireo/tagify@^4.12.0 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+52 verbose already installed skipping bootstrap@^4.6.1 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+53 verbose already installed skipping cropper@^4.1.0 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+54 verbose already installed skipping font-awesome@^4.7.0 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+55 silly cache add args [ 'jdenticon@^3.1.1', null ]
+56 verbose cache add spec jdenticon@^3.1.1
+57 silly cache add parsed spec Result {
+57 silly cache add   raw: 'jdenticon@^3.1.1',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'jdenticon',
+57 silly cache add   rawSpec: '^3.1.1',
+57 silly cache add   spec: '>=3.1.1 <4.0.0',
+57 silly cache add   type: 'range' }
+58 silly addNamed jdenticon@>=3.1.1 <4.0.0
+59 verbose addNamed ">=3.1.1 <4.0.0" is a valid semver range for jdenticon
+60 silly addNameRange { name: 'jdenticon', range: '>=3.1.1 <4.0.0', hasData: false }
+61 silly mapToRegistry name jdenticon
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'jdenticon',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   name: 'jdenticon',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/jdenticon
+66 verbose addNameRange registry:https://registry.npmjs.org/jdenticon not in flight; fetching
+67 verbose already installed skipping jquery@^3.6.0 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+68 verbose already installed skipping jquery-cropper@^1.0.1 /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+69 verbose request uri https://registry.npmjs.org/summernote
+70 verbose request no auth needed
+71 info attempt registry request try #1 at 6:13:01 PM
+72 verbose request id 595f863796b2221c
+73 verbose etag W/"d903e5f29a7eba03d0da0cafcb27a886"
+74 verbose lastModified Thu, 09 Jun 2022 05:31:45 GMT
+75 http request GET https://registry.npmjs.org/summernote
+76 verbose request uri https://registry.npmjs.org/jdenticon
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 6:13:01 PM
+79 verbose etag W/"c180d74bb7a14cda6bbb7179ff2f2804"
+80 verbose lastModified Sun, 19 Jun 2022 04:01:36 GMT
+81 http request GET https://registry.npmjs.org/jdenticon
+82 http 304 https://registry.npmjs.org/jdenticon
+83 verbose headers { date: 'Sun, 26 Jun 2022 09:13:02 GMT',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'cf-ray': '7214d31c9ec63538-ICN',
+83 verbose headers   'cache-control': 'public, max-age=300',
+83 verbose headers   etag: '"c180d74bb7a14cda6bbb7179ff2f2804"',
+83 verbose headers   'last-modified': 'Sun, 19 Jun 2022 04:01:36 GMT',
+83 verbose headers   vary: 'Accept-Encoding',
+83 verbose headers   'cf-cache-status': 'REVALIDATED',
+83 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+83 verbose headers   'x-amz-replication-status': 'COMPLETED',
+83 verbose headers   server: 'cloudflare' }
+84 silly get cb [ 304,
+84 silly get   { date: 'Sun, 26 Jun 2022 09:13:02 GMT',
+84 silly get     connection: 'keep-alive',
+84 silly get     'cf-ray': '7214d31c9ec63538-ICN',
+84 silly get     'cache-control': 'public, max-age=300',
+84 silly get     etag: '"c180d74bb7a14cda6bbb7179ff2f2804"',
+84 silly get     'last-modified': 'Sun, 19 Jun 2022 04:01:36 GMT',
+84 silly get     vary: 'Accept-Encoding',
+84 silly get     'cf-cache-status': 'REVALIDATED',
+84 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+84 silly get     'x-amz-replication-status': 'COMPLETED',
+84 silly get     server: 'cloudflare' } ]
+85 verbose etag https://registry.npmjs.org/jdenticon from cache
+86 verbose get saving jdenticon to /Users/jinwoopark/.npm/registry.npmjs.org/jdenticon/.cache.json
+87 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+88 silly addNameRange number 2 { name: 'jdenticon', range: '>=3.1.1 <4.0.0', hasData: true }
+89 silly addNameRange versions [ 'jdenticon',
+89 silly addNameRange   [ '1.2.0',
+89 silly addNameRange     '1.3.1',
+89 silly addNameRange     '1.3.2',
+89 silly addNameRange     '1.4.0',
+89 silly addNameRange     '1.5.0',
+89 silly addNameRange     '1.6.0',
+89 silly addNameRange     '1.7.0',
+89 silly addNameRange     '1.7.1',
+89 silly addNameRange     '1.7.2',
+89 silly addNameRange     '1.8.0',
+89 silly addNameRange     '2.0.0',
+89 silly addNameRange     '2.1.0',
+89 silly addNameRange     '2.1.1',
+89 silly addNameRange     '2.2.0',
+89 silly addNameRange     '3.0.0',
+89 silly addNameRange     '3.0.1',
+89 silly addNameRange     '3.1.0',
+89 silly addNameRange     '3.1.1' ] ]
+90 silly addNamed jdenticon@3.1.1
+91 verbose addNamed "3.1.1" is a plain semver version for jdenticon
+92 silly cache afterAdd jdenticon@3.1.1
+93 verbose afterAdd /Users/jinwoopark/.npm/jdenticon/3.1.1/package/package.json not in flight; writing
+94 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+95 verbose afterAdd /Users/jinwoopark/.npm/jdenticon/3.1.1/package/package.json written
+96 http 304 https://registry.npmjs.org/summernote
+97 verbose headers { date: 'Sun, 26 Jun 2022 09:13:02 GMT',
+97 verbose headers   connection: 'keep-alive',
+97 verbose headers   'cf-ray': '7214d31c8ef6352c-ICN',
+97 verbose headers   'cache-control': 'public, max-age=300',
+97 verbose headers   etag: '"d903e5f29a7eba03d0da0cafcb27a886"',
+97 verbose headers   'last-modified': 'Thu, 09 Jun 2022 05:31:45 GMT',
+97 verbose headers   vary: 'Accept-Encoding',
+97 verbose headers   'cf-cache-status': 'REVALIDATED',
+97 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+97 verbose headers   'x-amz-replication-status': 'COMPLETED',
+97 verbose headers   server: 'cloudflare' }
+98 silly get cb [ 304,
+98 silly get   { date: 'Sun, 26 Jun 2022 09:13:02 GMT',
+98 silly get     connection: 'keep-alive',
+98 silly get     'cf-ray': '7214d31c8ef6352c-ICN',
+98 silly get     'cache-control': 'public, max-age=300',
+98 silly get     etag: '"d903e5f29a7eba03d0da0cafcb27a886"',
+98 silly get     'last-modified': 'Thu, 09 Jun 2022 05:31:45 GMT',
+98 silly get     vary: 'Accept-Encoding',
+98 silly get     'cf-cache-status': 'REVALIDATED',
+98 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+98 silly get     'x-amz-replication-status': 'COMPLETED',
+98 silly get     server: 'cloudflare' } ]
+99 verbose etag https://registry.npmjs.org/summernote from cache
+100 verbose get saving summernote to /Users/jinwoopark/.npm/registry.npmjs.org/summernote/.cache.json
+101 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+102 silly addNameRange number 2 { name: 'summernote', range: '>=0.8.20 <0.9.0', hasData: true }
+103 silly addNameRange versions [ 'summernote',
+103 silly addNameRange   [ '0.5.9',
+103 silly addNameRange     '0.6.0-ga',
+103 silly addNameRange     '0.6.1',
+103 silly addNameRange     '0.6.5',
+103 silly addNameRange     '0.6.6',
+103 silly addNameRange     '0.6.7',
+103 silly addNameRange     '0.6.8',
+103 silly addNameRange     '0.6.9',
+103 silly addNameRange     '0.6.10',
+103 silly addNameRange     '0.6.11',
+103 silly addNameRange     '0.6.12',
+103 silly addNameRange     '0.6.13',
+103 silly addNameRange     '0.6.14',
+103 silly addNameRange     '0.6.15',
+103 silly addNameRange     '0.6.16',
+103 silly addNameRange     '0.7.0',
+103 silly addNameRange     '0.7.1',
+103 silly addNameRange     '0.7.2',
+103 silly addNameRange     '0.7.3',
+103 silly addNameRange     '0.8.0',
+103 silly addNameRange     '0.8.1',
+103 silly addNameRange     '0.8.2',
+103 silly addNameRange     '0.8.3',
+103 silly addNameRange     '0.8.4',
+103 silly addNameRange     '0.8.5',
+103 silly addNameRange     '0.8.6',
+103 silly addNameRange     '0.8.7',
+103 silly addNameRange     '0.8.8',
+103 silly addNameRange     '0.8.9',
+103 silly addNameRange     '0.8.10',
+103 silly addNameRange     '0.8.11',
+103 silly addNameRange     '0.8.12',
+103 silly addNameRange     '0.8.13',
+103 silly addNameRange     '0.8.14',
+103 silly addNameRange     '0.8.15',
+103 silly addNameRange     '0.8.16',
+103 silly addNameRange     '0.8.17',
+103 silly addNameRange     '0.8.18',
+103 silly addNameRange     '0.8.19',
+103 silly addNameRange     '0.8.20' ] ]
+104 silly addNamed summernote@0.8.20
+105 verbose addNamed "0.8.20" is a plain semver version for summernote
+106 silly cache afterAdd summernote@0.8.20
+107 verbose afterAdd /Users/jinwoopark/.npm/summernote/0.8.20/package/package.json not in flight; writing
+108 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+109 verbose afterAdd /Users/jinwoopark/.npm/summernote/0.8.20/package/package.json written
+110 silly install resolved [ { name: 'jdenticon',
+110 silly install resolved     version: '3.1.1',
+110 silly install resolved     description: 'Javascript identicon generator',
+110 silly install resolved     main: 'dist/jdenticon-node.js',
+110 silly install resolved     exports: { '.': [Object], './standalone': './dist/jdenticon.min.js' },
+110 silly install resolved     browser: 'dist/jdenticon-module',
+110 silly install resolved     jsdelivr: 'dist/jdenticon.min.js',
+110 silly install resolved     unpkg: 'dist/jdenticon.min.js',
+110 silly install resolved     types: 'types/module.d.ts',
+110 silly install resolved     bin: { jdenticon: 'bin/jdenticon.js' },
+110 silly install resolved     engines: { node: '>=6.4.0' },
+110 silly install resolved     dependencies: { 'canvas-renderer': '~2.2.0' },
+110 silly install resolved     devDependencies:
+110 silly install resolved      { '@rollup/plugin-alias': '^3.1.1',
+110 silly install resolved        '@rollup/plugin-commonjs': '^17.0.0',
+110 silly install resolved        '@rollup/plugin-node-resolve': '^10.0.0',
+110 silly install resolved        '@types/jquery': '^3.3.30',
+110 silly install resolved        '@types/node14': 'npm:@types/node@14',
+110 silly install resolved        '@types/node16': 'npm:@types/node@16',
+110 silly install resolved        acorn: '^8.0.4',
+110 silly install resolved        'blink-diff': '^1.0.13',
+110 silly install resolved        buble: '^0.20.0',
+110 silly install resolved        del: '^6.0.0',
+110 silly install resolved        eslint: '^7.15.0',
+110 silly install resolved        express: '^4.17.1',
+110 silly install resolved        gulp: '^4.0.2',
+110 silly install resolved        'gulp-buble': '^0.9.0',
+110 silly install resolved        'gulp-rename': '^2.0.0',
+110 silly install resolved        'gulp-sourcemaps': '^3.0.0',
+110 silly install resolved        'gulp-terser': '^2.0.0',
+110 silly install resolved        'gulp-zip': '^5.0.2',
+110 silly install resolved        'module-alias': '^2.2.2',
+110 silly install resolved        pngjs: '^6.0.0',
+110 silly install resolved        rollup: '^2.34.2',
+110 silly install resolved        'rollup-plugin-strip-banner': '^2.0.0',
+110 silly install resolved        'rollup-plugin-terser': '^7.0.2',
+110 silly install resolved        'selenium-webdriver': '^4.0.0-alpha.8',
+110 silly install resolved        'source-map-loader': '^1.1.3',
+110 silly install resolved        tap: '^15.0.9',
+110 silly install resolved        typescript3: 'npm:typescript@^3.2.4',
+110 silly install resolved        typescript4: 'npm:typescript@^4.3.5',
+110 silly install resolved        webpack4: 'npm:webpack@4',
+110 silly install resolved        webpack5: 'npm:webpack@5' },
+110 silly install resolved     tap: { 'check-coverage': false },
+110 silly install resolved     scripts:
+110 silly install resolved      { build: 'npm run lint && npm run tsc3 -- -p src/tsconfig.json && gulp build',
+110 silly install resolved        release: 'gulp release',
+110 silly install resolved        lint: 'eslint ./src/**/*.js',
+110 silly install resolved        'test:unit': 'gulp build-unit-tests && tap obj/test/unit/*.js',
+110 silly install resolved        'test:types': 'npm run test:types:browser && npm run test:types:node14 && npm run test:types:node16 && npm run test:types:umd',
+110 silly install resolved        'test:types:browser': 'npm run tsc3 -- -p ./test/types/module-browser/tsconfig.json',
+110 silly install resolved        'test:types:node14': 'npm run tsc3 -- -p ./test/types/module-node14/tsconfig.json',
+110 silly install resolved        'test:types:node16': 'npm run tsc4 -- -p ./test/types/module-node16/tsconfig.json',
+110 silly install resolved        'test:types:umd': 'npm run tsc3 -- -p ./test/types/umd/tsconfig.json',
+110 silly install resolved        'test:browser-win': 'tap ./test/e2e/browser/test.js --test-arg=win --test-arg=chrome,firefox,edge,ie11,ie10,ie9 --timeout=300',
+110 silly install resolved        'test:browser-macos': 'tap ./test/e2e/browser/test.js --test-arg=macos --test-arg=chrome,firefox,safari --timeout=180',
+110 silly install resolved        'test:node-cjs': 'tap ./test/e2e/node/test.js',
+110 silly install resolved        'test:node-esm': 'tap ./test/e2e/node/test.mjs',
+110 silly install resolved        'test:webpack4': 'cd ./test/e2e/webpack && node runner.js webpack4 && tap ./app.bundle.js --no-coverage',
+110 silly install resolved        'test:webpack5': 'cd ./test/e2e/webpack && node runner.js webpack5 && tap ./app.bundle.js --no-coverage',
+110 silly install resolved        'test:rollup': 'cd ./test/e2e/rollup && rollup --config && tap ./app.bundle.js --no-coverage',
+110 silly install resolved        tsc3: 'node ./node_modules/typescript3/bin/tsc',
+110 silly install resolved        tsc4: 'node ./node_modules/typescript4/bin/tsc' },
+110 silly install resolved     repository:
+110 silly install resolved      { type: 'git',
+110 silly install resolved        url: 'git+https://github.com/dmester/jdenticon.git' },
+110 silly install resolved     bugs: { url: 'https://github.com/dmester/jdenticon/issues' },
+110 silly install resolved     keywords: [ 'javascript', 'identicon', 'jdenticon', 'avatar' ],
+110 silly install resolved     author: { name: 'Daniel Mester Pirttijärvi' },
+110 silly install resolved     license: 'MIT',
+110 silly install resolved     homepage: 'https://jdenticon.com/',
+110 silly install resolved     _resolved: 'https://registry.npmjs.org/jdenticon/-/jdenticon-3.1.1.tgz',
+110 silly install resolved     _integrity: '',
+110 silly install resolved     _from: 'jdenticon@>=3.1.1 <4.0.0',
+110 silly install resolved     _id: 'jdenticon@3.1.1',
+110 silly install resolved     _nodeVersion: '14.17.5',
+110 silly install resolved     _npmVersion: '6.14.14',
+110 silly install resolved     dist:
+110 silly install resolved      { integrity: 'sha512-/m0Kk5ou7tPHjW6YovCysRETqPlFcTabWG96r8NbbSsEK+eQ3jHiGULaGOtp4XBqkRxWS1XMopLRGwdhet5ezw==',
+110 silly install resolved        shasum: '76a5b81195d7147c635a1303adf314dd08bcd4cb',
+110 silly install resolved        tarball: 'https://registry.npmjs.org/jdenticon/-/jdenticon-3.1.1.tgz',
+110 silly install resolved        fileCount: 20,
+110 silly install resolved        unpackedSize: 705626,
+110 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhGATLCRA9TVsSAnZWagAABo8P/At6GmKVYNcTu9qyIqcX\nuUkOyPgKsyEl++3j8wHKi+hx1f/QwM5GBc1d4GGOiuWU+SbvZZ2cp7NYXvSG\n+9wusSjKXNZVbdrlDnB5h4hMYkF0urJYWfgZYl7tXc1eJ50Lntx3mMRp3U2I\n7rfc2Lp1+u6sJRJEdyMF3SjVJtscbwROe2AGxk/PCG/LLAZguZQm80x3MCaD\nD7xdGYbLhHr4mUjy8kie99Ao+e41bIhlymQO2+33wGe0VrW83ocP//jCw/Qg\n9fnyHGVshIrGfuLpsVjs9XqS8ecZdmcHH4WF/osoDozd+z8oPChHH91UDPg0\nJkLVYePhtiat3HLla1xjbXpUdjQLvaf4I6n+av8pbZ9qA+uDqPBCu1OZFUxM\nFTHQ8nInmeiCkKrZDcqi30pRlix5WXP5PvQfSezJRUFOjC7p8nYs/Xnfm8I1\nzNvpXTl1NCLvToi6LRCOaBtWq84xh5V9HdAaOW9t2G5WpvmqXWEsEofwgKwS\nO4iryrTitjTwdz8bA5F+NUF9TZgPU3BdVuMbziIf5aaItJg8msSV5c8QUP54\npN8yJbQNhPv+/tWHU/h2p6oEqxCanFHmb9oG2T37FlwiHy4el7iAktlRSwKQ\nBXahqYdqKnZhU7UREMcnu33VyMrtT1oqk73i4cuKU1g24Dv+d0E8oqY08+C4\nXIHj\r\n=yhE6\r\n-----END PGP SIGNATURE-----\r\n',
+110 silly install resolved        signatures: [Object] },
+110 silly install resolved     _npmUser: { name: 'dmester', email: 'd@mester.se' },
+110 silly install resolved     directories: {},
+110 silly install resolved     maintainers: [ [Object] ],
+110 silly install resolved     _npmOperationalInternal:
+110 silly install resolved      { host: 's3://npm-registry-packages',
+110 silly install resolved        tmp: 'tmp/jdenticon_3.1.1_1628964043311_0.3842824794849371' },
+110 silly install resolved     _hasShrinkwrap: false,
+110 silly install resolved     _shasum: '76a5b81195d7147c635a1303adf314dd08bcd4cb',
+110 silly install resolved     readme: 'ERROR: No README data found!' },
+110 silly install resolved   { name: 'summernote',
+110 silly install resolved     description: 'Super simple WYSIWYG editor',
+110 silly install resolved     version: '0.8.20',
+110 silly install resolved     license: 'MIT',
+110 silly install resolved     keywords: [ 'editor', 'WYSIWYG' ],
+110 silly install resolved     repository:
+110 silly install resolved      { type: 'git',
+110 silly install resolved        url: 'git+https://github.com/summernote/summernote.git' },
+110 silly install resolved     author: { name: 'hackerwins', email: '<susukang98@gmail.com' },
+110 silly install resolved     main: 'dist/summernote.js',
+110 silly install resolved     scripts:
+110 silly install resolved      { dev: 'eslint config && webpack serve --config=./config/webpack.development.js --progress',
+110 silly install resolved        prebuild: 'node ./config/build-fonts.js',
+110 silly install resolved        build: 'webpack --node-env production --mode=production --config=./config/webpack.production.js --progress',
+110 silly install resolved        lint: 'eslint src plugin test config',
+110 silly install resolved        test: 'karma start .karma/config.js --single-run',
+110 silly install resolved        'test:grep': 'karma run .karma/config.js -- --grep',
+110 silly install resolved        'test:watch': 'karma start .karma/config.js',
+110 silly install resolved        'test:travis': 'karma start .karma/travis.js --single-run',
+110 silly install resolved        'test:sauce': 'karma start .karma/saucelabs.js --single-run',
+110 silly install resolved        'test:debug': 'karma start .karma/debug.js',
+110 silly install resolved        postinstall: 'husky install',
+110 silly install resolved        prepublishOnly: 'pinst --disable',
+110 silly install resolved        postpublish: 'pinst --enable' },
+110 silly install resolved     husky: { hooks: [Object] },
+110 silly install resolved     devDependencies:
+110 silly install resolved      { '@babel/core': '^7.9.0',
+110 silly install resolved        '@babel/eslint-parser': '^7.12.16',
+110 silly install resolved        '@babel/plugin-external-helpers': '^7.8.3',
+110 silly install resolved        '@babel/preset-env': '^7.9.5',
+110 silly install resolved        '@popperjs/core': '^2.9.2',
+110 silly install resolved        autoprefixer: '^10.2.4',
+110 silly install resolved        'babel-loader': '^8.1.0',
+110 silly install resolved        'babel-plugin-module-resolver': '^4.0.0',
+110 silly install resolved        bootstrap: '^5.0.1',
+110 silly install resolved        chai: '^4.2.0',
+110 silly install resolved        'chai-spies': '^1.0.0',
+110 silly install resolved        chromedriver: '^93.0.1',
+110 silly install resolved        'clean-webpack-plugin': '^4.0.0-alpha.0',
+110 silly install resolved        concurrently: '^6.2.0',
+110 silly install resolved        'copy-webpack-plugin': '^9.0.1',
+110 silly install resolved        'css-loader': '^6.2.0',
+110 silly install resolved        'css-minimizer-webpack-plugin': '^3.0.1',
+110 silly install resolved        cssnano: '^5.0.6',
+110 silly install resolved        eslint: '^7.19.0',
+110 silly install resolved        'eslint-config-standard': '^16.0.2',
+110 silly install resolved        'eslint-plugin-chai-friendly': '^0.7.1',
+110 silly install resolved        'eslint-plugin-import': '^2.20.2',
+110 silly install resolved        'eslint-plugin-node': '^11.1.0',
+110 silly install resolved        'eslint-plugin-promise': '^5.1.0',
+110 silly install resolved        'eslint-webpack-plugin': '^3.0.1',
+110 silly install resolved        'file-loader': '^6.0.0',
+110 silly install resolved        'html-loader': '^2.1.2',
+110 silly install resolved        'html-webpack-plugin': '^5.3.2',
+110 silly install resolved        husky: '^7.0.2',
+110 silly install resolved        jquery: '^3.6.0',
+110 silly install resolved        karma: '^6.1.0',
+110 silly install resolved        'karma-chrome-launcher': '^3.1.0',
+110 silly install resolved        'karma-coverage': '^2.0.2',
+110 silly install resolved        'karma-coveralls': '^2.1.0',
+110 silly install resolved        'karma-detect-browsers': '^2.3.3',
+110 silly install resolved        'karma-firefox-launcher': '^2.1.0',
+110 silly install resolved        'karma-ie-launcher': '^1.0.0',
+110 silly install resolved        'karma-mocha': '^2.0.0',
+110 silly install resolved        'karma-opera-launcher': '^1.0.0',
+110 silly install resolved        'karma-safari-launcher': '^1.0.0',
+110 silly install resolved        'karma-sauce-launcher': '^4.3.6',
+110 silly install resolved        'karma-webpack': '^5.0.0',
+110 silly install resolved        less: '^4.1.1',
+110 silly install resolved        'less-loader': '^10.0.0',
+110 silly install resolved        'mini-css-extract-plugin': '^2.3.0',
+110 silly install resolved        mocha: '^9.0.1',
+110 silly install resolved        pinst: '^2.1.4',
+110 silly install resolved        postcss: '^8.2.6',
+110 silly install resolved        'postcss-escape-generated-content-string': '^3.0.0',
+110 silly install resolved        'postcss-loader': '^6.1.0',
+110 silly install resolved        'resolve-url-loader': '^4.0.0',
+110 silly install resolved        sass: '^1.26.3',
+110 silly install resolved        'sass-loader': '^12.1.0',
+110 silly install resolved        'serve-static': '^1.14.1',
+110 silly install resolved        'string-replace-loader': '^3.0.1',
+110 silly install resolved        'style-loader': '^3.2.1',
+110 silly install resolved        'terser-webpack-plugin': '^5.1.1',
+110 silly install resolved        'uglify-js': '^3.9.1',
+110 silly install resolved        'url-loader': '^4.1.0',
+110 silly install resolved        webfont: '^11.1.1',
+110 silly install resolved        webpack: '^5.40.0',
+110 silly install resolved        'webpack-bundle-analyzer': '^4.4.0',
+110 silly install resolved        'webpack-cli': '^4.5.0',
+110 silly install resolved        'webpack-dev-server': '^4.3.0',
+110 silly install resolved        'zip-webpack-plugin': '^4.0.1' },
+110 silly install resolved     licenseText: 'The MIT License (MIT)\n\nCopyright (c) 2015~ Summernote Team (https://github.com/orgs/summernote/people)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n',
+110 silly install resolved     _id: 'summernote@0.8.20',
+110 silly install resolved     dist:
+110 silly install resolved      { shasum: '395905f2cec0aceebc712edc019d91b8ef88f7cf',
+110 silly install resolved        integrity: 'sha512-W9RhjQjsn+b1s9xiJQgJbCiYGJaDAc9CdEqXo+D13WuStG8lCdtKaO5AiNiSSMJsQJN2EfGSwbBQt+SFE2B8Kw==',
+110 silly install resolved        tarball: 'https://registry.npmjs.org/summernote/-/summernote-0.8.20.tgz',
+110 silly install resolved        fileCount: 455,
+110 silly install resolved        unpackedSize: 8055837,
+110 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh28XMCRA9TVsSAnZWagAAYXkP/RK1q685UvEITks8FwEe\n8I1OWJEka1QEE2liJbqUqoJvh1Ngsny3MEQHu7AAt2mo6QJMa61krdL4U6xT\nA4inVIRCiVCMH0+5fR8B/anK0V0Y6Pq5Dum6k1vn9fygGByNdVwTf+1zFwSt\n4H/4oIODLAPAl8kFfGqXaq0kpMrwEV/QRjWgyxftbEA9J6ZO3TIR7b6NsKFd\nPIGdNl3bYeKOvSDCeKEbGJzOUdZRgKIVmTLHA031uP8BswhBd+Mzmy5OnFc+\niwvslAdF88HV6HG5KLEwDH7oXA8oTT5rh9aipaROV6y6Kd7miQWKRxsgiEXy\nb0E+kn1pVaSYQJbofvIVF9LihbPrRhRMyudOztFZ/qVHB09/ubl5cjgZ2LUi\nbwixpl/973swe5/Ou0B2sMVGxCfY3+EO6deoYE5skIRvZGdKxnNgcrh0lrNV\nFaKBBKx8JOt/+hMP4VE84hZKGOe5vIv62gZqpoXbDAP2336hLNTE3sYYYIO9\nzvrUa4utqLny4las8tlXWwtjGU8Ms+UnQvDFuoo6wsQqSBQRvUi5nE3m3o8U\n4GD4DiXi+IeJjpGOy3OH4xygaQz9CugwGHFT2f86/DpEhq44uazGMqu/fUDJ\nbkG7KrYVc5b77/wSYo9nkY02WwydyOE2UDv3UC971RMie0k33PNZpZrJ20u2\n7cqC\r\n=U+7a\r\n-----END PGP SIGNATURE-----\r\n',
+110 silly install resolved        signatures: [Object] },
+110 silly install resolved     _npmUser: { name: 'lqez', email: 'ez.amiryo@gmail.com' },
+110 silly install resolved     directories: {},
+110 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+110 silly install resolved     _npmOperationalInternal:
+110 silly install resolved      { host: 's3://npm-registry-packages',
+110 silly install resolved        tmp: 'tmp/summernote_0.8.20_1634246247020_0.3651347245562713' },
+110 silly install resolved     _hasShrinkwrap: false,
+110 silly install resolved     _shasum: '395905f2cec0aceebc712edc019d91b8ef88f7cf',
+110 silly install resolved     _resolved: 'https://registry.npmjs.org/summernote/-/summernote-0.8.20.tgz',
+110 silly install resolved     _from: 'summernote@>=0.8.20 <0.9.0',
+110 silly install resolved     bugs: { url: 'https://github.com/summernote/summernote/issues' },
+110 silly install resolved     readme: 'ERROR: No README data found!',
+110 silly install resolved     homepage: 'https://github.com/summernote/summernote#readme' } ]
+111 info install jdenticon@3.1.1 into /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+112 info install summernote@0.8.20 into /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+113 info installOne jdenticon@3.1.1
+114 verbose installOne of jdenticon to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static not in flight; installing
+115 verbose correctMkdir /Users/jinwoopark/.npm/_locks correctMkdir not in flight; initializing
+116 info installOne summernote@0.8.20
+117 verbose installOne of summernote to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static not in flight; installing
+118 verbose correctMkdir /Users/jinwoopark/.npm/_locks correctMkdir already in flight; waiting
+119 verbose lock using /Users/jinwoopark/.npm/_locks/jdenticon-426ad85d191bf3d1.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+120 warn engine jdenticon@3.1.1: wanted: {"node":">=6.4.0"} (current: {"node":"4.6.0","npm":"2.15.9"})
+121 verbose lock using /Users/jinwoopark/.npm/_locks/summernote-0f3507212eecf84d.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+122 silly install write writing jdenticon 3.1.1 to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+123 silly install write writing summernote 0.8.20 to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+124 verbose unbuild node_modules/summernote
+125 verbose unbuild node_modules/jdenticon
+126 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+127 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+128 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+129 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+130 verbose tar unpack /Users/jinwoopark/.npm/summernote/0.8.20/package.tgz
+131 verbose tar unpacking to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+132 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote is being purged
+133 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+134 verbose tar unpack /Users/jinwoopark/.npm/jdenticon/3.1.1/package.tgz
+135 verbose tar unpacking to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+136 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon is being purged
+137 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+138 silly gunzTarPerm modes [ '755', '644' ]
+139 silly gunzTarPerm modes [ '755', '644' ]
+140 silly gunzTarPerm extractEntry
+141 silly gunzTarPerm extractEntry LICENSE
+142 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+143 silly gunzTarPerm extractEntry dist/jdenticon-module.js
+144 silly gunzTarPerm modified mode [ 'dist/jdenticon-module.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry dist/jdenticon-node.js
+146 silly gunzTarPerm modified mode [ 'dist/jdenticon-node.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry .babelrc
+148 silly gunzTarPerm extractEntry .editorconfig
+149 silly gunzTarPerm extractEntry .envrc
+150 silly gunzTarPerm extractEntry .eslintrc
+151 silly gunzTarPerm extractEntry .github
+152 silly gunzTarPerm extractEntry bin/jdenticon.js
+153 silly gunzTarPerm modified mode [ 'bin/jdenticon.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry dist/jdenticon.js
+155 silly gunzTarPerm modified mode [ 'dist/jdenticon.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry dist/jdenticon.min.js
+157 silly gunzTarPerm modified mode [ 'dist/jdenticon.min.js', 438, 420 ]
+158 silly gunzTarPerm extractEntry package.json
+159 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+160 silly gunzTarPerm extractEntry .husky
+161 silly gunzTarPerm extractEntry .karma
+162 silly gunzTarPerm extractEntry CHANGES.md
+163 silly gunzTarPerm extractEntry LICENSE
+164 silly gunzTarPerm extractEntry standalone/package.json
+165 silly gunzTarPerm modified mode [ 'standalone/package.json', 438, 420 ]
+166 silly gunzTarPerm extractEntry dist/jdenticon-module.js.map
+167 silly gunzTarPerm modified mode [ 'dist/jdenticon-module.js.map', 438, 420 ]
+168 silly gunzTarPerm extractEntry dist/jdenticon-module.mjs.map
+169 silly gunzTarPerm modified mode [ 'dist/jdenticon-module.mjs.map', 438, 420 ]
+170 silly gunzTarPerm extractEntry README.md
+171 silly gunzTarPerm extractEntry config
+172 silly gunzTarPerm extractEntry dist/jdenticon-node.js.map
+173 silly gunzTarPerm modified mode [ 'dist/jdenticon-node.js.map', 438, 420 ]
+174 silly gunzTarPerm extractEntry dist/jdenticon-node.mjs.map
+175 silly gunzTarPerm modified mode [ 'dist/jdenticon-node.mjs.map', 438, 420 ]
+176 silly gunzTarPerm extractEntry dist
+177 silly gunzTarPerm extractEntry examples
+178 silly gunzTarPerm extractEntry package.json
+179 silly gunzTarPerm extractEntry plugin
+180 silly gunzTarPerm extractEntry src
+181 silly gunzTarPerm extractEntry .github/CODE_OF_CONDUCT.md
+182 silly gunzTarPerm extractEntry dist/jdenticon.min.js.map
+183 silly gunzTarPerm modified mode [ 'dist/jdenticon.min.js.map', 438, 420 ]
+184 silly gunzTarPerm extractEntry dist/README.md
+185 silly gunzTarPerm modified mode [ 'dist/README.md', 438, 420 ]
+186 silly gunzTarPerm extractEntry .github/CONTRIBUTING.md
+187 silly gunzTarPerm extractEntry .github/FUNDING.yml
+188 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+189 silly gunzTarPerm extractEntry .github/PULL_REQUEST_TEMPLATE.md
+190 silly gunzTarPerm extractEntry .github/workflows
+191 silly gunzTarPerm extractEntry .husky/pre-commit
+192 silly gunzTarPerm extractEntry README.md
+193 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+194 silly gunzTarPerm extractEntry dist/jdenticon-module.mjs
+195 silly gunzTarPerm modified mode [ 'dist/jdenticon-module.mjs', 438, 420 ]
+196 silly gunzTarPerm extractEntry dist/jdenticon-node.mjs
+197 silly gunzTarPerm modified mode [ 'dist/jdenticon-node.mjs', 438, 420 ]
+198 silly gunzTarPerm extractEntry types/env.d.ts
+199 silly gunzTarPerm modified mode [ 'types/env.d.ts', 438, 420 ]
+200 silly gunzTarPerm extractEntry types/module.d.ts
+201 silly gunzTarPerm modified mode [ 'types/module.d.ts', 438, 420 ]
+202 silly gunzTarPerm extractEntry types/umd.d.ts
+203 silly gunzTarPerm modified mode [ 'types/umd.d.ts', 438, 420 ]
+204 silly gunzTarPerm extractEntry .husky/pre-push
+205 silly gunzTarPerm extractEntry .karma/config.js
+206 silly gunzTarPerm extractEntry .karma/debug.js
+207 silly gunzTarPerm extractEntry .karma/saucelabs.js
+208 silly gunzTarPerm extractEntry .karma/travis.js
+209 silly gunzTarPerm extractEntry config/build-fonts.js
+210 silly gunzTarPerm extractEntry config/common.js
+211 silly gunzTarPerm extractEntry config/webpack.development.js
+212 silly gunzTarPerm extractEntry config/webpack.karma.js
+213 silly gunzTarPerm extractEntry config/webpack.production.js
+214 silly gunzTarPerm extractEntry dist/font
+215 silly gunzTarPerm extractEntry dist/lang
+216 silly gunzTarPerm extractEntry dist/plugin
+217 silly gunzTarPerm extractEntry dist/summernote-0.8.20-dist.zip
+218 silly gunzTarPerm extractEntry dist/summernote-bs4.css
+219 silly gunzTarPerm extractEntry dist/summernote-bs4.css.map
+220 silly gunzTarPerm extractEntry dist/summernote-bs4.js
+221 verbose write writing to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/package.json
+222 silly gunzTarPerm extractEntry dist/summernote-bs4.js.map
+223 info preinstall jdenticon@3.1.1
+224 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/package.json
+225 silly prepareForInstallMany adding canvas-renderer@~2.2.0 from jdenticon dependencies
+226 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/package.json
+227 silly cache add args [ 'canvas-renderer@~2.2.0', null ]
+228 verbose cache add spec canvas-renderer@~2.2.0
+229 silly cache add parsed spec Result {
+229 silly cache add   raw: 'canvas-renderer@~2.2.0',
+229 silly cache add   scope: null,
+229 silly cache add   name: 'canvas-renderer',
+229 silly cache add   rawSpec: '~2.2.0',
+229 silly cache add   spec: '>=2.2.0 <2.3.0',
+229 silly cache add   type: 'range' }
+230 silly addNamed canvas-renderer@>=2.2.0 <2.3.0
+231 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for canvas-renderer
+232 silly addNameRange { name: 'canvas-renderer',
+232 silly addNameRange   range: '>=2.2.0 <2.3.0',
+232 silly addNameRange   hasData: false }
+233 silly mapToRegistry name canvas-renderer
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'canvas-renderer',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   name: 'canvas-renderer',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npmjs.org/canvas-renderer
+238 verbose addNameRange registry:https://registry.npmjs.org/canvas-renderer not in flight; fetching
+239 verbose request uri https://registry.npmjs.org/canvas-renderer
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 6:13:03 PM
+242 verbose etag W/"6ab9f0143e8a05b2a329b6e20bf8f86b"
+243 verbose lastModified Mon, 13 Jun 2022 05:34:19 GMT
+244 http request GET https://registry.npmjs.org/canvas-renderer
+245 silly gunzTarPerm extractEntry dist/summernote-bs4.min.css
+246 silly gunzTarPerm extractEntry dist/summernote-bs4.min.js
+247 silly gunzTarPerm extractEntry dist/summernote-bs5.css
+248 silly gunzTarPerm extractEntry dist/summernote-bs5.css.map
+249 silly gunzTarPerm extractEntry dist/summernote-bs5.js
+250 silly gunzTarPerm extractEntry dist/summernote-bs5.js.map
+251 silly gunzTarPerm extractEntry dist/summernote-bs5.min.css
+252 silly gunzTarPerm extractEntry dist/summernote-bs5.min.js
+253 silly gunzTarPerm extractEntry dist/summernote-lite.css
+254 silly gunzTarPerm extractEntry dist/summernote-lite.css.map
+255 silly gunzTarPerm extractEntry dist/summernote-lite.js
+256 silly gunzTarPerm extractEntry dist/summernote-lite.js.map
+257 silly gunzTarPerm extractEntry dist/summernote-lite.min.css
+258 silly gunzTarPerm extractEntry dist/summernote-lite.min.js
+259 silly gunzTarPerm extractEntry dist/summernote.css
+260 silly gunzTarPerm extractEntry dist/summernote.css.map
+261 silly gunzTarPerm extractEntry dist/summernote.js
+262 silly gunzTarPerm extractEntry dist/summernote.js.map
+263 silly gunzTarPerm extractEntry dist/summernote.min.css
+264 silly gunzTarPerm extractEntry dist/summernote.min.js
+265 silly gunzTarPerm extractEntry examples/README.md
+266 silly gunzTarPerm extractEntry examples/airmode.html
+267 silly gunzTarPerm extractEntry examples/codemirror.html
+268 silly gunzTarPerm extractEntry examples/custom-style.html
+269 silly gunzTarPerm extractEntry examples/example.css
+270 silly gunzTarPerm extractEntry examples/external-api.html
+271 silly gunzTarPerm extractEntry examples/external-codemirror.html
+272 silly gunzTarPerm extractEntry examples/hint-emoji.html
+273 silly gunzTarPerm extractEntry examples/hint-math.html
+274 silly gunzTarPerm extractEntry examples/hint-userdefine.html
+275 silly gunzTarPerm extractEntry examples/hint-words.html
+276 silly gunzTarPerm extractEntry examples/history-limit.html
+277 silly gunzTarPerm extractEntry examples/index.template
+278 silly gunzTarPerm extractEntry examples/jquery-custom-event.html
+279 silly gunzTarPerm extractEntry examples/lang.html
+280 silly gunzTarPerm extractEntry examples/link-blank.html
+281 silly gunzTarPerm extractEntry examples/mode-switcher.html
+282 silly gunzTarPerm extractEntry examples/ondialog-multitab.html
+283 silly gunzTarPerm extractEntry examples/ondialog.html
+284 silly gunzTarPerm extractEntry examples/placeholder.html
+285 silly gunzTarPerm extractEntry examples/plugin-hello.html
+286 silly gunzTarPerm extractEntry examples/recordEveryKeyStroke.html
+287 silly gunzTarPerm extractEntry examples/symbols_mathematical-symbols_Greek-letters.json
+288 silly gunzTarPerm extractEntry examples/textarea.html
+289 silly gunzTarPerm extractEntry examples/toolbar-container.html
+290 silly gunzTarPerm extractEntry examples/with-google-font.html
+291 silly gunzTarPerm extractEntry plugin/databasic
+292 silly gunzTarPerm extractEntry plugin/hello
+293 silly gunzTarPerm extractEntry plugin/specialchars
+294 silly gunzTarPerm extractEntry src/font
+295 silly gunzTarPerm extractEntry src/js
+296 silly gunzTarPerm extractEntry src/lang
+297 silly gunzTarPerm extractEntry src/styles
+298 silly gunzTarPerm extractEntry .github/workflows/codeql-analysis.yml
+299 silly gunzTarPerm extractEntry dist/font/summernote.eot
+300 silly gunzTarPerm extractEntry dist/font/summernote.hash
+301 silly gunzTarPerm extractEntry dist/font/summernote.ttf
+302 silly gunzTarPerm extractEntry dist/font/summernote.woff
+303 silly gunzTarPerm extractEntry dist/font/summernote.woff2
+304 silly gunzTarPerm extractEntry dist/lang/summernote-ar-AR.js
+305 silly gunzTarPerm extractEntry dist/lang/summernote-ar-AR.js.map
+306 silly gunzTarPerm extractEntry dist/lang/summernote-ar-AR.min.js
+307 silly gunzTarPerm extractEntry dist/lang/summernote-az-AZ.js
+308 silly gunzTarPerm extractEntry dist/lang/summernote-az-AZ.js.map
+309 silly gunzTarPerm extractEntry dist/lang/summernote-az-AZ.min.js
+310 silly gunzTarPerm extractEntry dist/lang/summernote-bg-BG.js
+311 silly gunzTarPerm extractEntry dist/lang/summernote-bg-BG.js.map
+312 silly gunzTarPerm extractEntry dist/lang/summernote-bg-BG.min.js
+313 silly gunzTarPerm extractEntry dist/lang/summernote-bn-BD.js
+314 silly gunzTarPerm extractEntry dist/lang/summernote-bn-BD.js.map
+315 silly gunzTarPerm extractEntry dist/lang/summernote-bn-BD.min.js
+316 silly gunzTarPerm extractEntry dist/lang/summernote-ca-ES.js
+317 silly gunzTarPerm extractEntry dist/lang/summernote-ca-ES.js.map
+318 silly gunzTarPerm extractEntry dist/lang/summernote-ca-ES.min.js
+319 silly gunzTarPerm extractEntry dist/lang/summernote-cs-CZ.js
+320 silly gunzTarPerm extractEntry dist/lang/summernote-cs-CZ.js.map
+321 silly gunzTarPerm extractEntry dist/lang/summernote-cs-CZ.min.js
+322 silly gunzTarPerm extractEntry dist/lang/summernote-da-DK.js
+323 silly gunzTarPerm extractEntry dist/lang/summernote-da-DK.js.map
+324 silly gunzTarPerm extractEntry dist/lang/summernote-da-DK.min.js
+325 silly gunzTarPerm extractEntry dist/lang/summernote-de-CH.js
+326 silly gunzTarPerm extractEntry dist/lang/summernote-de-CH.js.map
+327 silly gunzTarPerm extractEntry dist/lang/summernote-de-CH.min.js
+328 silly gunzTarPerm extractEntry dist/lang/summernote-de-DE.js
+329 silly gunzTarPerm extractEntry dist/lang/summernote-de-DE.js.map
+330 silly gunzTarPerm extractEntry dist/lang/summernote-de-DE.min.js
+331 silly gunzTarPerm extractEntry dist/lang/summernote-el-GR.js
+332 silly gunzTarPerm extractEntry dist/lang/summernote-el-GR.js.map
+333 silly gunzTarPerm extractEntry dist/lang/summernote-el-GR.min.js
+334 silly gunzTarPerm extractEntry dist/lang/summernote-en-US.js
+335 silly gunzTarPerm extractEntry dist/lang/summernote-en-US.js.map
+336 silly gunzTarPerm extractEntry dist/lang/summernote-en-US.min.js
+337 silly gunzTarPerm extractEntry dist/lang/summernote-es-ES.js
+338 silly gunzTarPerm extractEntry dist/lang/summernote-es-ES.js.map
+339 silly gunzTarPerm extractEntry dist/lang/summernote-es-ES.min.js
+340 silly gunzTarPerm extractEntry dist/lang/summernote-es-EU.js
+341 silly gunzTarPerm extractEntry dist/lang/summernote-es-EU.js.map
+342 silly gunzTarPerm extractEntry dist/lang/summernote-es-EU.min.js
+343 silly gunzTarPerm extractEntry dist/lang/summernote-fa-IR.js
+344 silly gunzTarPerm extractEntry dist/lang/summernote-fa-IR.js.map
+345 silly gunzTarPerm extractEntry dist/lang/summernote-fa-IR.min.js
+346 silly gunzTarPerm extractEntry dist/lang/summernote-fi-FI.js
+347 silly gunzTarPerm extractEntry dist/lang/summernote-fi-FI.js.map
+348 silly gunzTarPerm extractEntry dist/lang/summernote-fi-FI.min.js
+349 silly gunzTarPerm extractEntry dist/lang/summernote-fr-FR.js
+350 silly gunzTarPerm extractEntry dist/lang/summernote-fr-FR.js.map
+351 silly gunzTarPerm extractEntry dist/lang/summernote-fr-FR.min.js
+352 silly gunzTarPerm extractEntry dist/lang/summernote-gl-ES.js
+353 silly gunzTarPerm extractEntry dist/lang/summernote-gl-ES.js.map
+354 silly gunzTarPerm extractEntry dist/lang/summernote-gl-ES.min.js
+355 silly gunzTarPerm extractEntry dist/lang/summernote-he-IL.js
+356 silly gunzTarPerm extractEntry dist/lang/summernote-he-IL.js.map
+357 silly gunzTarPerm extractEntry dist/lang/summernote-he-IL.min.js
+358 silly gunzTarPerm extractEntry dist/lang/summernote-hr-HR.js
+359 silly gunzTarPerm extractEntry dist/lang/summernote-hr-HR.js.map
+360 silly gunzTarPerm extractEntry dist/lang/summernote-hr-HR.min.js
+361 silly gunzTarPerm extractEntry dist/lang/summernote-hu-HU.js
+362 silly gunzTarPerm extractEntry dist/lang/summernote-hu-HU.js.map
+363 silly gunzTarPerm extractEntry dist/lang/summernote-hu-HU.min.js
+364 silly gunzTarPerm extractEntry dist/lang/summernote-id-ID.js
+365 silly gunzTarPerm extractEntry dist/lang/summernote-id-ID.js.map
+366 silly gunzTarPerm extractEntry dist/lang/summernote-id-ID.min.js
+367 silly gunzTarPerm extractEntry dist/lang/summernote-it-IT.js
+368 silly gunzTarPerm extractEntry dist/lang/summernote-it-IT.js.map
+369 silly gunzTarPerm extractEntry dist/lang/summernote-it-IT.min.js
+370 silly gunzTarPerm extractEntry dist/lang/summernote-ja-JP.js
+371 silly gunzTarPerm extractEntry dist/lang/summernote-ja-JP.js.map
+372 silly gunzTarPerm extractEntry dist/lang/summernote-ja-JP.min.js
+373 silly gunzTarPerm extractEntry dist/lang/summernote-ko-KR.js
+374 silly gunzTarPerm extractEntry dist/lang/summernote-ko-KR.js.map
+375 silly gunzTarPerm extractEntry dist/lang/summernote-ko-KR.min.js
+376 silly gunzTarPerm extractEntry dist/lang/summernote-lt-LT.js
+377 silly gunzTarPerm extractEntry dist/lang/summernote-lt-LT.js.map
+378 silly gunzTarPerm extractEntry dist/lang/summernote-lt-LT.min.js
+379 silly gunzTarPerm extractEntry dist/lang/summernote-lt-LV.js
+380 silly gunzTarPerm extractEntry dist/lang/summernote-lt-LV.js.map
+381 silly gunzTarPerm extractEntry dist/lang/summernote-lt-LV.min.js
+382 silly gunzTarPerm extractEntry dist/lang/summernote-mn-MN.js
+383 silly gunzTarPerm extractEntry dist/lang/summernote-mn-MN.js.map
+384 silly gunzTarPerm extractEntry dist/lang/summernote-mn-MN.min.js
+385 silly gunzTarPerm extractEntry dist/lang/summernote-nb-NO.js
+386 silly gunzTarPerm extractEntry dist/lang/summernote-nb-NO.js.map
+387 silly gunzTarPerm extractEntry dist/lang/summernote-nb-NO.min.js
+388 silly gunzTarPerm extractEntry dist/lang/summernote-nl-NL.js
+389 silly gunzTarPerm extractEntry dist/lang/summernote-nl-NL.js.map
+390 silly gunzTarPerm extractEntry dist/lang/summernote-nl-NL.min.js
+391 silly gunzTarPerm extractEntry dist/lang/summernote-pl-PL.js
+392 silly gunzTarPerm extractEntry dist/lang/summernote-pl-PL.js.map
+393 silly gunzTarPerm extractEntry dist/lang/summernote-pl-PL.min.js
+394 silly gunzTarPerm extractEntry dist/lang/summernote-pt-BR.js
+395 silly gunzTarPerm extractEntry dist/lang/summernote-pt-BR.js.map
+396 silly gunzTarPerm extractEntry dist/lang/summernote-pt-BR.min.js
+397 silly gunzTarPerm extractEntry dist/lang/summernote-pt-PT.js
+398 silly gunzTarPerm extractEntry dist/lang/summernote-pt-PT.js.map
+399 silly gunzTarPerm extractEntry dist/lang/summernote-pt-PT.min.js
+400 silly gunzTarPerm extractEntry dist/lang/summernote-ro-RO.js
+401 silly gunzTarPerm extractEntry dist/lang/summernote-ro-RO.js.map
+402 silly gunzTarPerm extractEntry dist/lang/summernote-ro-RO.min.js
+403 silly gunzTarPerm extractEntry dist/lang/summernote-ru-RU.js
+404 silly gunzTarPerm extractEntry dist/lang/summernote-ru-RU.js.map
+405 silly gunzTarPerm extractEntry dist/lang/summernote-ru-RU.min.js
+406 silly gunzTarPerm extractEntry dist/lang/summernote-sk-SK.js
+407 silly gunzTarPerm extractEntry dist/lang/summernote-sk-SK.js.map
+408 silly gunzTarPerm extractEntry dist/lang/summernote-sk-SK.min.js
+409 silly gunzTarPerm extractEntry dist/lang/summernote-sl-SI.js
+410 silly gunzTarPerm extractEntry dist/lang/summernote-sl-SI.js.map
+411 silly gunzTarPerm extractEntry dist/lang/summernote-sl-SI.min.js
+412 silly gunzTarPerm extractEntry dist/lang/summernote-sr-RS-Latin.js
+413 silly gunzTarPerm extractEntry dist/lang/summernote-sr-RS-Latin.js.map
+414 silly gunzTarPerm extractEntry dist/lang/summernote-sr-RS-Latin.min.js
+415 silly gunzTarPerm extractEntry dist/lang/summernote-sr-RS.js
+416 silly gunzTarPerm extractEntry dist/lang/summernote-sr-RS.js.map
+417 silly gunzTarPerm extractEntry dist/lang/summernote-sr-RS.min.js
+418 silly gunzTarPerm extractEntry dist/lang/summernote-sv-SE.js
+419 silly gunzTarPerm extractEntry dist/lang/summernote-sv-SE.js.map
+420 silly gunzTarPerm extractEntry dist/lang/summernote-sv-SE.min.js
+421 silly gunzTarPerm extractEntry dist/lang/summernote-ta-IN.js
+422 silly gunzTarPerm extractEntry dist/lang/summernote-ta-IN.js.map
+423 silly gunzTarPerm extractEntry dist/lang/summernote-ta-IN.min.js
+424 silly gunzTarPerm extractEntry dist/lang/summernote-th-TH.js
+425 silly gunzTarPerm extractEntry dist/lang/summernote-th-TH.js.map
+426 silly gunzTarPerm extractEntry dist/lang/summernote-th-TH.min.js
+427 silly gunzTarPerm extractEntry dist/lang/summernote-tr-TR.js
+428 silly gunzTarPerm extractEntry dist/lang/summernote-tr-TR.js.map
+429 silly gunzTarPerm extractEntry dist/lang/summernote-tr-TR.min.js
+430 silly gunzTarPerm extractEntry dist/lang/summernote-uk-UA.js
+431 silly gunzTarPerm extractEntry dist/lang/summernote-uk-UA.js.map
+432 silly gunzTarPerm extractEntry dist/lang/summernote-uk-UA.min.js
+433 silly gunzTarPerm extractEntry dist/lang/summernote-uz-UZ.js
+434 silly gunzTarPerm extractEntry dist/lang/summernote-uz-UZ.js.map
+435 silly gunzTarPerm extractEntry dist/lang/summernote-uz-UZ.min.js
+436 silly gunzTarPerm extractEntry dist/lang/summernote-vi-VN.js
+437 silly gunzTarPerm extractEntry dist/lang/summernote-vi-VN.js.map
+438 silly gunzTarPerm extractEntry dist/lang/summernote-vi-VN.min.js
+439 silly gunzTarPerm extractEntry dist/lang/summernote-zh-CN.js
+440 silly gunzTarPerm extractEntry dist/lang/summernote-zh-CN.js.map
+441 silly gunzTarPerm extractEntry dist/lang/summernote-zh-CN.min.js
+442 silly gunzTarPerm extractEntry dist/lang/summernote-zh-TW.js
+443 silly gunzTarPerm extractEntry dist/lang/summernote-zh-TW.js.map
+444 silly gunzTarPerm extractEntry dist/lang/summernote-zh-TW.min.js
+445 silly gunzTarPerm extractEntry dist/plugin/databasic
+446 silly gunzTarPerm extractEntry dist/plugin/hello
+447 silly gunzTarPerm extractEntry dist/plugin/specialchars
+448 silly gunzTarPerm extractEntry plugin/databasic/summernote-ext-databasic.css
+449 silly gunzTarPerm extractEntry plugin/databasic/summernote-ext-databasic.js
+450 silly gunzTarPerm extractEntry plugin/hello/summernote-ext-hello.js
+451 silly gunzTarPerm extractEntry plugin/specialchars/summernote-ext-specialchars.js
+452 silly gunzTarPerm extractEntry src/font/icons
+453 silly gunzTarPerm extractEntry src/font/summernote.eot
+454 silly gunzTarPerm extractEntry src/font/summernote.hash
+455 silly gunzTarPerm extractEntry src/font/summernote.ttf
+456 silly gunzTarPerm extractEntry src/font/summernote.woff
+457 silly gunzTarPerm extractEntry src/font/summernote.woff2
+458 silly gunzTarPerm extractEntry src/font/template.scss
+459 silly gunzTarPerm extractEntry src/js/Context.js
+460 silly gunzTarPerm extractEntry src/js/core
+461 silly gunzTarPerm extractEntry src/js/editing
+462 silly gunzTarPerm extractEntry src/js/module
+463 silly gunzTarPerm extractEntry src/js/renderer.js
+464 silly gunzTarPerm extractEntry src/js/settings.js
+465 silly gunzTarPerm extractEntry src/js/summernote.js
+466 silly gunzTarPerm extractEntry src/lang/README.md
+467 silly gunzTarPerm extractEntry src/lang/summernote-ar-AR.js
+468 silly gunzTarPerm extractEntry src/lang/summernote-az-AZ.js
+469 silly gunzTarPerm extractEntry src/lang/summernote-bg-BG.js
+470 silly gunzTarPerm extractEntry src/lang/summernote-bn-BD.js
+471 silly gunzTarPerm extractEntry src/lang/summernote-ca-ES.js
+472 silly gunzTarPerm extractEntry src/lang/summernote-cs-CZ.js
+473 silly gunzTarPerm extractEntry src/lang/summernote-da-DK.js
+474 silly gunzTarPerm extractEntry src/lang/summernote-de-CH.js
+475 silly gunzTarPerm extractEntry src/lang/summernote-de-DE.js
+476 silly gunzTarPerm extractEntry src/lang/summernote-el-GR.js
+477 silly gunzTarPerm extractEntry src/lang/summernote-en-US.js
+478 silly gunzTarPerm extractEntry src/lang/summernote-es-ES.js
+479 silly gunzTarPerm extractEntry src/lang/summernote-es-EU.js
+480 silly gunzTarPerm extractEntry src/lang/summernote-fa-IR.js
+481 silly gunzTarPerm extractEntry src/lang/summernote-fi-FI.js
+482 silly gunzTarPerm extractEntry src/lang/summernote-fr-FR.js
+483 silly gunzTarPerm extractEntry src/lang/summernote-gl-ES.js
+484 silly gunzTarPerm extractEntry src/lang/summernote-he-IL.js
+485 silly gunzTarPerm extractEntry src/lang/summernote-hr-HR.js
+486 silly gunzTarPerm extractEntry src/lang/summernote-hu-HU.js
+487 silly gunzTarPerm extractEntry src/lang/summernote-id-ID.js
+488 silly gunzTarPerm extractEntry src/lang/summernote-it-IT.js
+489 silly gunzTarPerm extractEntry src/lang/summernote-ja-JP.js
+490 silly gunzTarPerm extractEntry src/lang/summernote-ko-KR.js
+491 silly gunzTarPerm extractEntry src/lang/summernote-lt-LT.js
+492 silly gunzTarPerm extractEntry src/lang/summernote-lt-LV.js
+493 silly gunzTarPerm extractEntry src/lang/summernote-mn-MN.js
+494 silly gunzTarPerm extractEntry src/lang/summernote-nb-NO.js
+495 silly gunzTarPerm extractEntry src/lang/summernote-nl-NL.js
+496 silly gunzTarPerm extractEntry src/lang/summernote-pl-PL.js
+497 silly gunzTarPerm extractEntry src/lang/summernote-pt-BR.js
+498 silly gunzTarPerm extractEntry src/lang/summernote-pt-PT.js
+499 silly gunzTarPerm extractEntry src/lang/summernote-ro-RO.js
+500 silly gunzTarPerm extractEntry src/lang/summernote-ru-RU.js
+501 silly gunzTarPerm extractEntry src/lang/summernote-sk-SK.js
+502 silly gunzTarPerm extractEntry src/lang/summernote-sl-SI.js
+503 silly gunzTarPerm extractEntry src/lang/summernote-sr-RS-Latin.js
+504 silly gunzTarPerm extractEntry src/lang/summernote-sr-RS.js
+505 silly gunzTarPerm extractEntry src/lang/summernote-sv-SE.js
+506 silly gunzTarPerm extractEntry src/lang/summernote-ta-IN.js
+507 silly gunzTarPerm extractEntry src/lang/summernote-th-TH.js
+508 silly gunzTarPerm extractEntry src/lang/summernote-tr-TR.js
+509 silly gunzTarPerm extractEntry src/lang/summernote-uk-UA.js
+510 silly gunzTarPerm extractEntry src/lang/summernote-uz-UZ.js
+511 silly gunzTarPerm extractEntry src/lang/summernote-vi-VN.js
+512 silly gunzTarPerm extractEntry src/lang/summernote-zh-CN.js
+513 silly gunzTarPerm extractEntry src/lang/summernote-zh-TW.js
+514 silly gunzTarPerm extractEntry src/styles/README.md
+515 silly gunzTarPerm extractEntry src/styles/bs3
+516 silly gunzTarPerm extractEntry src/styles/bs4
+517 silly gunzTarPerm extractEntry src/styles/bs5
+518 silly gunzTarPerm extractEntry src/styles/lite
+519 silly gunzTarPerm extractEntry src/styles/summernote
+520 silly gunzTarPerm extractEntry dist/plugin/databasic/summernote-ext-databasic.css
+521 silly gunzTarPerm extractEntry dist/plugin/databasic/summernote-ext-databasic.js
+522 silly gunzTarPerm extractEntry dist/plugin/hello/summernote-ext-hello.js
+523 silly gunzTarPerm extractEntry dist/plugin/specialchars/summernote-ext-specialchars.js
+524 silly gunzTarPerm extractEntry src/font/icons/align-center.svg
+525 silly gunzTarPerm extractEntry src/font/icons/align-indent.svg
+526 silly gunzTarPerm extractEntry src/font/icons/align-justify.svg
+527 silly gunzTarPerm extractEntry src/font/icons/align-left.svg
+528 silly gunzTarPerm extractEntry src/font/icons/align-outdent.svg
+529 silly gunzTarPerm extractEntry src/font/icons/align-right.svg
+530 silly gunzTarPerm extractEntry src/font/icons/align.svg
+531 silly gunzTarPerm extractEntry src/font/icons/arrow-circle-down.svg
+532 silly gunzTarPerm extractEntry src/font/icons/arrow-circle-left.svg
+533 silly gunzTarPerm extractEntry src/font/icons/arrow-circle-right.svg
+534 silly gunzTarPerm extractEntry src/font/icons/arrow-circle-up.svg
+535 silly gunzTarPerm extractEntry src/font/icons/arrows-alt.svg
+536 silly gunzTarPerm extractEntry src/font/icons/arrows-h.svg
+537 silly gunzTarPerm extractEntry src/font/icons/arrows-v.svg
+538 silly gunzTarPerm extractEntry src/font/icons/bold.svg
+539 silly gunzTarPerm extractEntry src/font/icons/caret.svg
+540 silly gunzTarPerm extractEntry src/font/icons/chain-broken.svg
+541 silly gunzTarPerm extractEntry src/font/icons/circle.svg
+542 silly gunzTarPerm extractEntry src/font/icons/close.svg
+543 silly gunzTarPerm extractEntry src/font/icons/code.svg
+544 silly gunzTarPerm extractEntry src/font/icons/col-after.svg
+545 silly gunzTarPerm extractEntry src/font/icons/col-before.svg
+546 silly gunzTarPerm extractEntry src/font/icons/col-remove.svg
+547 silly gunzTarPerm extractEntry src/font/icons/eraser.svg
+548 silly gunzTarPerm extractEntry src/font/icons/float-left.svg
+549 silly gunzTarPerm extractEntry src/font/icons/float-none.svg
+550 silly gunzTarPerm extractEntry src/font/icons/float-right.svg
+551 silly gunzTarPerm extractEntry src/font/icons/font.svg
+552 silly gunzTarPerm extractEntry src/font/icons/frame.svg
+553 silly gunzTarPerm extractEntry src/font/icons/italic.svg
+554 silly gunzTarPerm extractEntry src/font/icons/link.svg
+555 silly gunzTarPerm extractEntry src/font/icons/magic.svg
+556 silly gunzTarPerm extractEntry src/font/icons/menu-check.svg
+557 silly gunzTarPerm extractEntry src/font/icons/minus.svg
+558 silly gunzTarPerm extractEntry src/font/icons/orderedlist.svg
+559 silly gunzTarPerm extractEntry src/font/icons/pencil.svg
+560 silly gunzTarPerm extractEntry src/font/icons/picture.svg
+561 silly gunzTarPerm extractEntry src/font/icons/question.svg
+562 silly gunzTarPerm extractEntry src/font/icons/redo.svg
+563 silly gunzTarPerm extractEntry src/font/icons/rollback.svg
+564 silly gunzTarPerm extractEntry src/font/icons/row-above.svg
+565 silly gunzTarPerm extractEntry src/font/icons/row-below.svg
+566 silly gunzTarPerm extractEntry src/font/icons/row-remove.svg
+567 silly gunzTarPerm extractEntry src/font/icons/special-character.svg
+568 silly gunzTarPerm extractEntry src/font/icons/square.svg
+569 silly gunzTarPerm extractEntry src/font/icons/strikethrough.svg
+570 silly gunzTarPerm extractEntry src/font/icons/subscript.svg
+571 silly gunzTarPerm extractEntry src/font/icons/summernote.svg
+572 silly gunzTarPerm extractEntry src/font/icons/superscript.svg
+573 silly gunzTarPerm extractEntry src/font/icons/table.svg
+574 silly gunzTarPerm extractEntry src/font/icons/text-height.svg
+575 silly gunzTarPerm extractEntry src/font/icons/trash.svg
+576 silly gunzTarPerm extractEntry src/font/icons/underline.svg
+577 silly gunzTarPerm extractEntry src/font/icons/undo.svg
+578 silly gunzTarPerm extractEntry src/font/icons/unorderedlist.svg
+579 silly gunzTarPerm extractEntry src/font/icons/video.svg
+580 silly gunzTarPerm extractEntry src/js/core/async.js
+581 silly gunzTarPerm extractEntry src/js/core/dom.js
+582 silly gunzTarPerm extractEntry src/js/core/env.js
+583 silly gunzTarPerm extractEntry src/js/core/func.js
+584 silly gunzTarPerm extractEntry src/js/core/key.js
+585 silly gunzTarPerm extractEntry src/js/core/lists.js
+586 silly gunzTarPerm extractEntry src/js/core/range.js
+587 silly gunzTarPerm extractEntry src/js/editing/Bullet.js
+588 silly gunzTarPerm extractEntry src/js/editing/History.js
+589 silly gunzTarPerm extractEntry src/js/editing/Style.js
+590 silly gunzTarPerm extractEntry src/js/editing/Table.js
+591 silly gunzTarPerm extractEntry src/js/editing/Typing.js
+592 silly gunzTarPerm extractEntry src/js/module/AirPopover.js
+593 silly gunzTarPerm extractEntry src/js/module/AutoLink.js
+594 silly gunzTarPerm extractEntry src/js/module/AutoReplace.js
+595 silly gunzTarPerm extractEntry src/js/module/AutoSync.js
+596 silly gunzTarPerm extractEntry src/js/module/Buttons.js
+597 silly gunzTarPerm extractEntry src/js/module/Clipboard.js
+598 silly gunzTarPerm extractEntry src/js/module/Codeview.js
+599 silly gunzTarPerm extractEntry src/js/module/Dropzone.js
+600 silly gunzTarPerm extractEntry src/js/module/Editor.js
+601 silly gunzTarPerm extractEntry src/js/module/Fullscreen.js
+602 silly gunzTarPerm extractEntry src/js/module/Handle.js
+603 silly gunzTarPerm extractEntry src/js/module/HelpDialog.js
+604 silly gunzTarPerm extractEntry src/js/module/HintPopover.js
+605 silly gunzTarPerm extractEntry src/js/module/ImageDialog.js
+606 silly gunzTarPerm extractEntry src/js/module/ImagePopover.js
+607 silly gunzTarPerm extractEntry src/js/module/LinkDialog.js
+608 silly gunzTarPerm extractEntry src/js/module/LinkPopover.js
+609 silly gunzTarPerm extractEntry src/js/module/Placeholder.js
+610 silly gunzTarPerm extractEntry src/js/module/Statusbar.js
+611 silly gunzTarPerm extractEntry src/js/module/TablePopover.js
+612 silly gunzTarPerm extractEntry src/js/module/Toolbar.js
+613 silly gunzTarPerm extractEntry src/js/module/VideoDialog.js
+614 silly gunzTarPerm extractEntry src/styles/bs3/summernote-bs3.html
+615 silly gunzTarPerm extractEntry src/styles/bs3/summernote-bs3.js
+616 silly gunzTarPerm extractEntry src/styles/bs3/summernote-bs3.json
+617 silly gunzTarPerm extractEntry src/styles/bs3/summernote-bs3.scss
+618 silly gunzTarPerm extractEntry src/styles/bs4/summernote-bs4.html
+619 silly gunzTarPerm extractEntry src/styles/bs4/summernote-bs4.js
+620 silly gunzTarPerm extractEntry src/styles/bs4/summernote-bs4.json
+621 silly gunzTarPerm extractEntry src/styles/bs4/summernote-bs4.scss
+622 silly gunzTarPerm extractEntry src/styles/bs5/summernote-bs5.html
+623 silly gunzTarPerm extractEntry src/styles/bs5/summernote-bs5.js
+624 silly gunzTarPerm extractEntry src/styles/bs5/summernote-bs5.json
+625 silly gunzTarPerm extractEntry src/styles/bs5/summernote-bs5.scss
+626 silly gunzTarPerm extractEntry src/styles/lite/js
+627 silly gunzTarPerm extractEntry src/styles/lite/scss
+628 silly gunzTarPerm extractEntry src/styles/lite/summernote-lite.html
+629 silly gunzTarPerm extractEntry src/styles/lite/summernote-lite.js
+630 silly gunzTarPerm extractEntry src/styles/lite/summernote-lite.json
+631 silly gunzTarPerm extractEntry src/styles/lite/summernote-lite.scss
+632 silly gunzTarPerm extractEntry src/styles/summernote/README.md
+633 silly gunzTarPerm extractEntry src/styles/summernote/common.scss
+634 silly gunzTarPerm extractEntry src/styles/summernote/elements.scss
+635 silly gunzTarPerm extractEntry src/styles/summernote/font
+636 silly gunzTarPerm extractEntry src/styles/summernote/font.scss
+637 silly gunzTarPerm extractEntry src/styles/lite/js/DropdownUI.js
+638 silly gunzTarPerm extractEntry src/styles/lite/js/ModalUI.js
+639 silly gunzTarPerm extractEntry src/styles/lite/js/TooltipUI.js
+640 silly gunzTarPerm extractEntry src/styles/lite/scss/btn-group.scss
+641 silly gunzTarPerm extractEntry src/styles/lite/scss/buttons.scss
+642 silly gunzTarPerm extractEntry src/styles/lite/scss/common.scss
+643 silly gunzTarPerm extractEntry src/styles/lite/scss/dropdown.scss
+644 silly gunzTarPerm extractEntry src/styles/lite/scss/form.scss
+645 silly gunzTarPerm extractEntry src/styles/lite/scss/mixins
+646 silly gunzTarPerm extractEntry src/styles/lite/scss/mixins.scss
+647 silly gunzTarPerm extractEntry src/styles/lite/scss/modal.scss
+648 silly gunzTarPerm extractEntry src/styles/lite/scss/popover.scss
+649 silly gunzTarPerm extractEntry src/styles/lite/scss/toolbar.scss
+650 silly gunzTarPerm extractEntry src/styles/lite/scss/tooltip.scss
+651 silly gunzTarPerm extractEntry src/styles/lite/scss/variables.scss
+652 silly gunzTarPerm extractEntry src/styles/summernote/font/summernote.eot
+653 silly gunzTarPerm extractEntry src/styles/summernote/font/summernote.hash
+654 silly gunzTarPerm extractEntry src/styles/summernote/font/summernote.ttf
+655 silly gunzTarPerm extractEntry src/styles/summernote/font/summernote.woff
+656 silly gunzTarPerm extractEntry src/styles/summernote/font/summernote.woff2
+657 silly gunzTarPerm extractEntry src/styles/lite/scss/mixins/buttons.scss
+658 verbose write writing to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote/package.json
+659 info preinstall summernote@0.8.20
+660 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote/package.json
+661 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote/package.json
+662 silly install resolved []
+663 verbose about to build /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+664 info build /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+665 info linkStuff summernote@0.8.20
+666 silly linkStuff summernote@0.8.20 has /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules as its parent node_modules
+667 verbose linkBins summernote@0.8.20
+668 verbose linkMans summernote@0.8.20
+669 verbose rebuildBundles summernote@0.8.20
+670 info install summernote@0.8.20
+671 info postinstall summernote@0.8.20
+672 verbose unsafe-perm in lifecycle true
+673 info summernote@0.8.20 Failed to exec postinstall script
+674 verbose unlock done using /Users/jinwoopark/.npm/_locks/summernote-0f3507212eecf84d.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+675 http 304 https://registry.npmjs.org/canvas-renderer
+676 verbose headers { date: 'Sun, 26 Jun 2022 09:13:04 GMT',
+676 verbose headers   connection: 'keep-alive',
+676 verbose headers   'cf-ray': '7214d325db973538-ICN',
+676 verbose headers   'cache-control': 'public, max-age=300',
+676 verbose headers   etag: '"6ab9f0143e8a05b2a329b6e20bf8f86b"',
+676 verbose headers   'last-modified': 'Mon, 13 Jun 2022 05:34:19 GMT',
+676 verbose headers   vary: 'Accept-Encoding',
+676 verbose headers   'cf-cache-status': 'REVALIDATED',
+676 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+676 verbose headers   'x-amz-replication-status': 'COMPLETED',
+676 verbose headers   server: 'cloudflare' }
+677 silly get cb [ 304,
+677 silly get   { date: 'Sun, 26 Jun 2022 09:13:04 GMT',
+677 silly get     connection: 'keep-alive',
+677 silly get     'cf-ray': '7214d325db973538-ICN',
+677 silly get     'cache-control': 'public, max-age=300',
+677 silly get     etag: '"6ab9f0143e8a05b2a329b6e20bf8f86b"',
+677 silly get     'last-modified': 'Mon, 13 Jun 2022 05:34:19 GMT',
+677 silly get     vary: 'Accept-Encoding',
+677 silly get     'cf-cache-status': 'REVALIDATED',
+677 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+677 silly get     'x-amz-replication-status': 'COMPLETED',
+677 silly get     server: 'cloudflare' } ]
+678 verbose etag https://registry.npmjs.org/canvas-renderer from cache
+679 verbose get saving canvas-renderer to /Users/jinwoopark/.npm/registry.npmjs.org/canvas-renderer/.cache.json
+680 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+681 silly addNameRange number 2 { name: 'canvas-renderer',
+681 silly addNameRange   range: '>=2.2.0 <2.3.0',
+681 silly addNameRange   hasData: true }
+682 silly addNameRange versions [ 'canvas-renderer',
+682 silly addNameRange   [ '1.0.0', '1.0.1', '2.0.0', '2.0.1', '2.1.0', '2.1.1', '2.2.0' ] ]
+683 silly addNamed canvas-renderer@2.2.0
+684 verbose addNamed "2.2.0" is a plain semver version for canvas-renderer
+685 silly cache afterAdd canvas-renderer@2.2.0
+686 verbose afterAdd /Users/jinwoopark/.npm/canvas-renderer/2.2.0/package/package.json not in flight; writing
+687 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+688 verbose afterAdd /Users/jinwoopark/.npm/canvas-renderer/2.2.0/package/package.json written
+689 silly install resolved [ { name: 'canvas-renderer',
+689 silly install resolved     version: '2.2.0',
+689 silly install resolved     description: 'HTML5 inspired canvas that can be rendered to PNG with no native dependencies.',
+689 silly install resolved     license: 'MIT',
+689 silly install resolved     repository:
+689 silly install resolved      { type: 'git',
+689 silly install resolved        url: 'git+https://github.com/dmester/canvas-renderer.git' },
+689 silly install resolved     dependencies: { '@types/node': '*' },
+689 silly install resolved     devDependencies: { pngjs: '^3.3.3', tap: '^12.1.1', typescript: '^3.6.3' },
+689 silly install resolved     scripts:
+689 silly install resolved      { test: 'npm run test:unit && npm run test:types',
+689 silly install resolved        'test:unit': 'tap tests/*Tests.js',
+689 silly install resolved        'test:types': 'tsc -p ./tests/types/tsconfig.json' },
+689 silly install resolved     bugs: { url: 'https://github.com/dmester/canvas-renderer/issues' },
+689 silly install resolved     keywords:
+689 silly install resolved      [ 'javascript',
+689 silly install resolved        'canvas',
+689 silly install resolved        'rasterize',
+689 silly install resolved        'rasterizer',
+689 silly install resolved        'renderer',
+689 silly install resolved        'png',
+689 silly install resolved        'polygon' ],
+689 silly install resolved     main: 'index.js',
+689 silly install resolved     types: './types/index.d.ts',
+689 silly install resolved     author: { name: 'Daniel Mester Pirttijärvi' },
+689 silly install resolved     gitHead: '9bfcc5b6d1a2b28098c9dd673b70fad754cdaec9',
+689 silly install resolved     homepage: 'https://github.com/dmester/canvas-renderer#readme',
+689 silly install resolved     _id: 'canvas-renderer@2.2.0',
+689 silly install resolved     _nodeVersion: '12.6.0',
+689 silly install resolved     _npmVersion: '6.9.0',
+689 silly install resolved     dist:
+689 silly install resolved      { integrity: 'sha512-Itdq9pwXcs4IbbkRCXc7reeGBk6i6tlDtZTjE1yc+KvYkx1Mt3WLf6tidZ/Ixbm7Vmi+jpWKG0dRBor67x9yGw==',
+689 silly install resolved        shasum: '512151f5494aaac5270802fba22599785114716d',
+689 silly install resolved        tarball: 'https://registry.npmjs.org/canvas-renderer/-/canvas-renderer-2.2.0.tgz',
+689 silly install resolved        fileCount: 23,
+689 silly install resolved        unpackedSize: 109226,
+689 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdfQQDCRA9TVsSAnZWagAAeTsP/jt+3/dG4sTXd7wJxHMy\nLI28Ca36klU+Cy2haMJSa7Cc5Jnxx9nekTt0VS6/HSOsjyq6EWIIF04SacAU\noIrhd5JFZnVQDwbuOrQKTYcqm/OpIgeUmoSyc+9RggDhcdkNky6DSck6GwkV\no1Xc7hdRxKT2NQ+xXZe6l/1APdJa7tZ95O0hq6W5bXhe/gt1NSaD3eGdAq6G\nA9g8dedQZbDvO9qWyQmsptYxnKmyyakPr/HidXQeGlgjIwYXsp+5Nz0Hmyos\n7RFEdCQDNGVJmaNY6kxFzxg4zUEd5H6VdXxrcK2/yf82omJD9jlf+4nFSTuR\nJc8owgKfoZBYqU+jE87k45QMS9sgQxdZxIspnvIyEa2BJU6rkFTLjofJQFE/\nLaPULCrt5PJ6aDLQkXWiQLmHqaCHNV2YJybzO4S1ZuEETzdcgDBIBNROC/BQ\nsnVTIwnd84gESlX3r6W/7+sUQQ5Srn80hq82hBPWy/lsvENAjCIDCFi8P5wG\nG65j6jolLjYeqgKUANE5lHYZNgoeoILKiPZBajxVLml14K3/4rtA34jBiyj9\nEmvlAH3CFcVmfwWR6ZfuTr/iVZE+XFB/3+idXG2ZoBKSrdeY7bXxFeGuu/sf\nOsqKBE0A4vRu6P8Yiy+L0RG4MtXrekCDzYjfoBddTsuB9I1Eh1fXxcKUj7E1\n2ceM\r\n=YqBp\r\n-----END PGP SIGNATURE-----\r\n',
+689 silly install resolved        signatures: [Object] },
+689 silly install resolved     maintainers: [ [Object] ],
+689 silly install resolved     _npmUser: { name: 'dmester', email: 'd@mester.se' },
+689 silly install resolved     directories: {},
+689 silly install resolved     _npmOperationalInternal:
+689 silly install resolved      { host: 's3://npm-registry-packages',
+689 silly install resolved        tmp: 'tmp/canvas-renderer_2.2.0_1568474114413_0.497097149311986' },
+689 silly install resolved     _hasShrinkwrap: false,
+689 silly install resolved     _shasum: '512151f5494aaac5270802fba22599785114716d',
+689 silly install resolved     _resolved: 'https://registry.npmjs.org/canvas-renderer/-/canvas-renderer-2.2.0.tgz',
+689 silly install resolved     _from: 'canvas-renderer@>=2.2.0 <2.3.0',
+689 silly install resolved     readme: 'ERROR: No README data found!' } ]
+690 info install canvas-renderer@2.2.0 into /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+691 info installOne canvas-renderer@2.2.0
+692 verbose installOne of canvas-renderer to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon not in flight; installing
+693 verbose correctMkdir /Users/jinwoopark/.npm/_locks correctMkdir not in flight; initializing
+694 verbose lock using /Users/jinwoopark/.npm/_locks/canvas-renderer-ea81a777ff4fac01.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+695 silly install write writing canvas-renderer 2.2.0 to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+696 verbose unbuild node_modules/jdenticon/node_modules/canvas-renderer
+697 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+698 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+699 verbose tar unpack /Users/jinwoopark/.npm/canvas-renderer/2.2.0/package.tgz
+700 verbose tar unpacking to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+701 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer is being purged
+702 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+703 silly gunzTarPerm modes [ '755', '644' ]
+704 silly gunzTarPerm extractEntry package.json
+705 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+706 silly gunzTarPerm extractEntry index.js
+707 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+708 silly gunzTarPerm extractEntry LICENSE
+709 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+710 silly gunzTarPerm extractEntry README.md
+711 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+712 silly gunzTarPerm extractEntry lib/canvas.js
+713 silly gunzTarPerm modified mode [ 'lib/canvas.js', 438, 420 ]
+714 silly gunzTarPerm extractEntry lib/canvasContext.js
+715 silly gunzTarPerm modified mode [ 'lib/canvasContext.js', 438, 420 ]
+716 silly gunzTarPerm extractEntry lib/canvasState.js
+717 silly gunzTarPerm modified mode [ 'lib/canvasState.js', 438, 420 ]
+718 silly gunzTarPerm extractEntry lib/colorUtils.js
+719 silly gunzTarPerm modified mode [ 'lib/colorUtils.js', 438, 420 ]
+720 silly gunzTarPerm extractEntry lib/matrix.js
+721 silly gunzTarPerm modified mode [ 'lib/matrix.js', 438, 420 ]
+722 silly gunzTarPerm extractEntry lib/png/crc32.js
+723 silly gunzTarPerm modified mode [ 'lib/png/crc32.js', 438, 420 ]
+724 silly gunzTarPerm extractEntry lib/png/pngBuffer.js
+725 silly gunzTarPerm modified mode [ 'lib/png/pngBuffer.js', 438, 420 ]
+726 silly gunzTarPerm extractEntry lib/png/pngEncoder.js
+727 silly gunzTarPerm modified mode [ 'lib/png/pngEncoder.js', 438, 420 ]
+728 silly gunzTarPerm extractEntry lib/png/pngPalette.js
+729 silly gunzTarPerm modified mode [ 'lib/png/pngPalette.js', 438, 420 ]
+730 silly gunzTarPerm extractEntry lib/rasterization/bitmapWriter.js
+731 silly gunzTarPerm modified mode [ 'lib/rasterization/bitmapWriter.js', 438, 420 ]
+732 silly gunzTarPerm extractEntry lib/rasterization/edge.js
+733 silly gunzTarPerm modified mode [ 'lib/rasterization/edge.js', 438, 420 ]
+734 silly gunzTarPerm extractEntry lib/rasterization/edgeTable.js
+735 silly gunzTarPerm modified mode [ 'lib/rasterization/edgeTable.js', 438, 420 ]
+736 silly gunzTarPerm extractEntry lib/rasterization/layerManager.js
+737 silly gunzTarPerm modified mode [ 'lib/rasterization/layerManager.js', 438, 420 ]
+738 silly gunzTarPerm extractEntry lib/rasterization/rasterizer.js
+739 silly gunzTarPerm modified mode [ 'lib/rasterization/rasterizer.js', 438, 420 ]
+740 silly gunzTarPerm extractEntry lib/rasterization/superSampleBuffer.js
+741 silly gunzTarPerm modified mode [ 'lib/rasterization/superSampleBuffer.js', 438, 420 ]
+742 silly gunzTarPerm extractEntry types/canvas.d.ts
+743 silly gunzTarPerm modified mode [ 'types/canvas.d.ts', 438, 420 ]
+744 silly gunzTarPerm extractEntry types/canvasContext.d.ts
+745 silly gunzTarPerm modified mode [ 'types/canvasContext.d.ts', 438, 420 ]
+746 silly gunzTarPerm extractEntry types/index.d.ts
+747 silly gunzTarPerm modified mode [ 'types/index.d.ts', 438, 420 ]
+748 silly gunzTarPerm extractEntry types/tsconfig.json
+749 silly gunzTarPerm modified mode [ 'types/tsconfig.json', 438, 420 ]
+750 verbose write writing to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/package.json
+751 info preinstall canvas-renderer@2.2.0
+752 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/package.json
+753 silly prepareForInstallMany adding @types/node@* from canvas-renderer dependencies
+754 verbose readDependencies loading dependencies from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/package.json
+755 silly cache add args [ '@types/node@*', null ]
+756 verbose cache add spec @types/node@*
+757 silly cache add parsed spec Result {
+757 silly cache add   raw: '@types/node@*',
+757 silly cache add   scope: '@types',
+757 silly cache add   name: '@types/node',
+757 silly cache add   rawSpec: '*',
+757 silly cache add   spec: '*',
+757 silly cache add   type: 'range' }
+758 silly addNamed @types/node@*
+759 verbose addNamed "*" is a valid semver range for @types/node
+760 silly addNameRange { name: '@types/node', range: '*', hasData: false }
+761 silly mapToRegistry name @types/node
+762 silly mapToRegistry scope (from package name) @types
+763 verbose mapToRegistry no registry URL found in name for scope @types
+764 silly mapToRegistry using default registry
+765 silly mapToRegistry registry https://registry.npmjs.org/
+766 silly mapToRegistry data Result {
+766 silly mapToRegistry   raw: '@types/node',
+766 silly mapToRegistry   scope: '@types',
+766 silly mapToRegistry   name: '@types/node',
+766 silly mapToRegistry   rawSpec: '',
+766 silly mapToRegistry   spec: 'latest',
+766 silly mapToRegistry   type: 'tag' }
+767 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+768 verbose addNameRange registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+769 verbose request uri https://registry.npmjs.org/@types%2fnode
+770 verbose request no auth needed
+771 info attempt registry request try #1 at 6:13:04 PM
+772 verbose etag W/"f26241d2f911e612b676d341e9e6d2cf"
+773 verbose lastModified Wed, 15 Jun 2022 23:02:36 GMT
+774 http request GET https://registry.npmjs.org/@types%2fnode
+775 http 304 https://registry.npmjs.org/@types%2fnode
+776 verbose headers { date: 'Sun, 26 Jun 2022 09:13:05 GMT',
+776 verbose headers   connection: 'keep-alive',
+776 verbose headers   'cf-ray': '7214d32c5c5c352c-ICN',
+776 verbose headers   'cache-control': 'public, max-age=300',
+776 verbose headers   etag: '"f26241d2f911e612b676d341e9e6d2cf"',
+776 verbose headers   'last-modified': 'Wed, 15 Jun 2022 23:02:36 GMT',
+776 verbose headers   vary: 'Accept-Encoding',
+776 verbose headers   'cf-cache-status': 'REVALIDATED',
+776 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+776 verbose headers   'x-amz-replication-status': 'COMPLETED',
+776 verbose headers   server: 'cloudflare' }
+777 silly get cb [ 304,
+777 silly get   { date: 'Sun, 26 Jun 2022 09:13:05 GMT',
+777 silly get     connection: 'keep-alive',
+777 silly get     'cf-ray': '7214d32c5c5c352c-ICN',
+777 silly get     'cache-control': 'public, max-age=300',
+777 silly get     etag: '"f26241d2f911e612b676d341e9e6d2cf"',
+777 silly get     'last-modified': 'Wed, 15 Jun 2022 23:02:36 GMT',
+777 silly get     vary: 'Accept-Encoding',
+777 silly get     'cf-cache-status': 'REVALIDATED',
+777 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+777 silly get     'x-amz-replication-status': 'COMPLETED',
+777 silly get     server: 'cloudflare' } ]
+778 verbose etag https://registry.npmjs.org/@types%2fnode from cache
+779 verbose get saving @types/node to /Users/jinwoopark/.npm/registry.npmjs.org/_40types_252fnode/.cache.json
+780 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+781 silly addNameRange number 2 { name: '@types/node', range: '*', hasData: true }
+782 silly addNameRange versions [ '@types/node',
+782 silly addNameRange   [ '4.0.15-alpha',
+782 silly addNameRange     '4.0.16-alpha',
+782 silly addNameRange     '4.0.21-alpha',
+782 silly addNameRange     '4.0.22-alpha',
+782 silly addNameRange     '4.0.23-alpha',
+782 silly addNameRange     '4.0.24-alpha',
+782 silly addNameRange     '4.0.25-alpha',
+782 silly addNameRange     '4.0.26-alpha',
+782 silly addNameRange     '4.0.27-alpha',
+782 silly addNameRange     '4.0.28-alpha',
+782 silly addNameRange     '4.0.29',
+782 silly addNameRange     '4.0.30',
+782 silly addNameRange     '6.0.31',
+782 silly addNameRange     '6.0.32',
+782 silly addNameRange     '6.0.33',
+782 silly addNameRange     '6.0.34',
+782 silly addNameRange     '6.0.35',
+782 silly addNameRange     '6.0.36',
+782 silly addNameRange     '6.0.37',
+782 silly addNameRange     '6.0.38',
+782 silly addNameRange     '6.0.39',
+782 silly addNameRange     '6.0.40',
+782 silly addNameRange     '6.0.41',
+782 silly addNameRange     '6.0.42',
+782 silly addNameRange     '6.0.43',
+782 silly addNameRange     '6.0.44',
+782 silly addNameRange     '6.0.45',
+782 silly addNameRange     '6.0.46',
+782 silly addNameRange     '6.0.47',
+782 silly addNameRange     '6.0.48',
+782 silly addNameRange     '6.0.49',
+782 silly addNameRange     '6.0.50',
+782 silly addNameRange     '6.0.51',
+782 silly addNameRange     '0.0.0',
+782 silly addNameRange     '0.0.1',
+782 silly addNameRange     '0.0.2',
+782 silly addNameRange     '0.0.3',
+782 silly addNameRange     '6.0.52',
+782 silly addNameRange     '6.0.53',
+782 silly addNameRange     '6.0.54',
+782 silly addNameRange     '6.0.55',
+782 silly addNameRange     '6.0.56',
+782 silly addNameRange     '6.0.57',
+782 silly addNameRange     '6.0.58',
+782 silly addNameRange     '6.0.59',
+782 silly addNameRange     '4.2.0',
+782 silly addNameRange     '0.12.0',
+782 silly addNameRange     '7.0.0',
+782 silly addNameRange     '6.0.60',
+782 silly addNameRange     '7.0.1',
+782 silly addNameRange     '6.0.61',
+782 silly addNameRange     '7.0.2',
+782 silly addNameRange     '7.0.3',
+782 silly addNameRange     '7.0.4',
+782 silly addNameRange     '4.2.1',
+782 silly addNameRange     '6.0.62',
+782 silly addNameRange     '7.0.5',
+782 silly addNameRange     '6.0.63',
+782 silly addNameRange     '4.2.2',
+782 silly addNameRange     '0.12.1',
+782 silly addNameRange     '4.2.3',
+782 silly addNameRange     '6.0.64',
+782 silly addNameRange     '7.0.6',
+782 silly addNameRange     '6.0.65',
+782 silly addNameRange     '7.0.7',
+782 silly addNameRange     '7.0.8',
+782 silly addNameRange     '4.2.4',
+782 silly addNameRange     '0.12.2',
+782 silly addNameRange     '6.0.66',
+782 silly addNameRange     '7.0.9',
+782 silly addNameRange     '7.0.10',
+782 silly addNameRange     '7.0.11',
+782 silly addNameRange     '6.0.67',
+782 silly addNameRange     '6.0.68',
+782 silly addNameRange     '7.0.12',
+782 silly addNameRange     '4.2.5',
+782 silly addNameRange     '0.12.3',
+782 silly addNameRange     '6.0.69',
+782 silly addNameRange     '0.12.4',
+782 silly addNameRange     '4.2.6',
+782 silly addNameRange     '6.0.70',
+782 silly addNameRange     '7.0.13',
+782 silly addNameRange     '7.0.14',
+782 silly addNameRange     '6.0.71',
+782 silly addNameRange     '7.0.15',
+782 silly addNameRange     '4.2.7',
+782 silly addNameRange     '6.0.72',
+782 silly addNameRange     '7.0.16',
+782 silly addNameRange     '7.0.17',
+782 silly addNameRange     '7.0.18',
+782 silly addNameRange     '4.2.8',
+782 silly addNameRange     '6.0.73',
+782 silly addNameRange     '7.0.19',
+782 silly addNameRange     '7.0.20',
+782 silly addNameRange     '7.0.21',
+782 silly addNameRange     '7.0.22',
+782 silly addNameRange     '6.0.74',
+782 silly addNameRange     '7.0.23',
+782 silly addNameRange     '7.0.24',
+782 silly addNameRange     '6.0.75',
+782 silly addNameRange     '4.2.9',
+782 silly addNameRange     '6.0.76',
+782 silly addNameRange     '7.0.25',
+782 silly addNameRange     '7.0.26',
+782 silly addNameRange     '0.12.5',
+782 silly addNameRange     '4.2.10',
+782 silly addNameRange     '6.0.77',
+782 silly addNameRange     '7.0.27',
+782 silly addNameRange     '0.12.6',
+782 silly addNameRange     '7.0.28',
+782 silly addNameRange     '4.2.11',
+782 silly addNameRange     '6.0.78',
+782 silly addNameRange     '7.0.29',
+782 silly addNameRange     '7.0.30',
+782 silly addNameRange     '7.0.31',
+782 silly addNameRange     '7.0.32',
+782 silly addNameRange     '8.0.0',
+782 silly addNameRange     '8.0.1',
+782 silly addNameRange     '8.0.2',
+782 silly addNameRange     '8.0.3',
+782 silly addNameRange     '8.0.4',
+782 silly addNameRange     '8.0.5',
+782 silly addNameRange     '6.0.79',
+782 silly addNameRange     '7.0.33',
+782 silly addNameRange     '4.2.12',
+782 silly addNameRange     '8.0.6',
+782 silly addNameRange     '8.0.7',
+782 silly addNameRange     '8.0.8',
+782 silly addNameRange     '8.0.9',
+782 silly addNameRange     '7.0.34',
+782 silly addNameRange     '8.0.10',
+782 silly addNameRange     '6.0.80',
+782 silly addNameRange     '6.0.81',
+782 silly addNameRange     '4.2.13',
+782 silly addNameRange     '7.0.35',
+782 silly addNameRange     '8.0.11',
+782 silly addNameRange     '6.0.82',
+782 silly addNameRange     '7.0.36',
+782 silly addNameRange     '8.0.12',
+782 silly addNameRange     '6.0.83',
+782 silly addNameRange     '7.0.37',
+782 silly addNameRange     '8.0.13',
+782 silly addNameRange     '4.2.14',
+782 silly addNameRange     '4.2.15',
+782 silly addNameRange     '0.12.7',
+782 silly addNameRange     '6.0.84',
+782 silly addNameRange     '8.0.14',
+782 silly addNameRange     '7.0.38',
+782 silly addNameRange     '0.12.8',
+782 silly addNameRange     '4.2.16',
+782 silly addNameRange     '6.0.85',
+782 silly addNameRange     '7.0.39',
+782 silly addNameRange     '8.0.15',
+782 silly addNameRange     '8.0.16',
+782 silly addNameRange     '8.0.17',
+782 silly addNameRange     '8.0.18',
+782 silly addNameRange     '8.0.19',
+782 silly addNameRange     '8.0.20',
+782 silly addNameRange     '4.2.17',
+782 silly addNameRange     '6.0.86',
+782 silly addNameRange     '7.0.40',
+782 silly addNameRange     '8.0.21',
+782 silly addNameRange     '4.2.18',
+782 silly addNameRange     '7.0.41',
+782 silly addNameRange     '8.0.22',
+782 silly addNameRange     '6.0.87',
+782 silly addNameRange     '0.12.9',
+782 silly addNameRange     '4.2.19',
+782 silly addNameRange     '8.0.23',
+782 silly addNameRange     '7.0.42',
+782 silly addNameRange     '8.0.24',
+782 silly addNameRange     '6.0.88',
+782 silly addNameRange     '8.0.25',
+782 silly addNameRange     '0.12.10',
+782 silly addNameRange     '7.0.43',
+782 silly addNameRange     '4.2.20',
+782 silly addNameRange     '8.0.26',
+782 silly addNameRange     '8.0.27',
+782 silly addNameRange     '8.0.28',
+782 silly addNameRange     '8.0.29',
+782 silly addNameRange     '8.0.30',
+782 silly addNameRange     '8.0.31',
+782 silly addNameRange     '8.0.32',
+782 silly addNameRange     '6.0.89',
+782 silly addNameRange     '8.0.33',
+782 silly addNameRange     '8.0.34',
+782 silly addNameRange     '8.0.35',
+782 silly addNameRange     '8.0.36',
+782 silly addNameRange     '7.0.44',
+782 silly addNameRange     '8.0.37',
+782 silly addNameRange     '8.0.38',
+782 silly addNameRange     '8.0.39',
+782 silly addNameRange     '8.0.40',
+782 silly addNameRange     '8.0.41',
+782 silly addNameRange     '8.0.42',
+782 silly addNameRange     '8.0.43',
+782 silly addNameRange     '8.0.44',
+782 silly addNameRange     '0.12.11',
+782 silly addNameRange     '6.0.90',
+782 silly addNameRange     '4.2.21',
+782 silly addNameRange     '8.0.45',
+782 silly addNameRange     '7.0.45',
+782 silly addNameRange     '7.0.46',
+782 silly addNameRange     '8.0.46',
+782 silly addNameRange     '8.0.47',
+782 silly addNameRange     '8.0.48',
+782 silly addNameRange     '8.0.49',
+782 silly addNameRange     '8.0.50',
+782 silly addNameRange     '8.0.51',
+782 silly addNameRange     '6.0.91',
+782 silly addNameRange     '4.2.22',
+782 silly addNameRange     '8.0.52',
+782 silly addNameRange     '7.0.47',
+782 silly addNameRange     '6.0.92',
+782 silly addNameRange     '4.2.23',
+782 silly addNameRange     '7.0.48',
+782 silly addNameRange     '8.0.53',
+782 silly addNameRange     '8.0.54',
+782 silly addNameRange     '8.0.55',
+782 silly addNameRange     '4.0.31',
+782 silly addNameRange     '8.0.56',
+782 silly addNameRange     '8.0.57',
+782 silly addNameRange     '6.0.93',
+782 silly addNameRange     '4.0.32',
+782 silly addNameRange     '7.0.49',
+782 silly addNameRange     '8.0.58',
+782 silly addNameRange     '8.5.0',
+782 silly addNameRange     '0.12.12',
+782 silly addNameRange     '7.0.50',
+782 silly addNameRange     '8.5.1',
+782 silly addNameRange     '6.0.94',
+782 silly addNameRange     '4.0.33',
+782 silly addNameRange     '0.12.13',
+782 silly addNameRange     '8.5.2',
+782 silly addNameRange     '4.0.34',
+782 silly addNameRange     '7.0.51',
+782 silly addNameRange     '6.0.95',
+782 silly addNameRange     '8.5.3',
+782 silly addNameRange     '8.5.4',
+782 silly addNameRange     '8.5.5',
+782 silly addNameRange     '0.12.14',
+782 silly addNameRange     '7.0.52',
+782 silly addNameRange     '4.0.35',
+782 silly addNameRange     '8.5.6',
+782 silly addNameRange     '6.0.96',
+782 silly addNameRange     '8.5.7',
+782 silly addNameRange     '8.5.8',
+782 silly addNameRange     '9.3.0',
+782 silly addNameRange     '8.5.9',
+782 silly addNameRange     '9.4.0',
+782 silly addNameRange     '6.0.97',
+782 silly addNameRange     '8.5.10',
+782 silly addNameRange     '9.4.1',
+782 silly addNameRange     '7.0.53',
+782 silly addNameRange     '8.9.0',
+782 silly addNameRange     '9.4.2',
+782 silly addNameRange     '6.0.98',
+782 silly addNameRange     '9.4.3',
+782 silly addNameRange     '6.0.99',
+782 silly addNameRange     '8.9.1',
+782 silly addNameRange     '7.0.54',
+782 silly addNameRange     '4.0.36',
+782 silly addNameRange     '9.4.4',
+782 silly addNameRange     '6.0.100',
+782 silly addNameRange     '8.9.2',
+782 silly addNameRange     '9.4.5',
+782 silly addNameRange     '8.9.3',
+782 silly addNameRange     '4.0.37',
+782 silly addNameRange     '7.0.55',
+782 silly addNameRange     '0.12.15',
+782 silly addNameRange     '8.9.4',
+782 silly addNameRange     '6.0.101',
+782 silly addNameRange     '9.4.6',
+782 silly addNameRange     '6.0.102',
+782 silly addNameRange     '7.0.56',
+782 silly addNameRange     '9.4.7',
+782 silly addNameRange     '8.9.5',
+782 silly addNameRange     '4.0.38',
+782 silly addNameRange     '8.10.0',
+782 silly addNameRange     '6.0.103',
+782 silly addNameRange     '7.0.57',
+782 silly addNameRange     '9.6.0',
+782 silly addNameRange     '7.0.58',
+782 silly addNameRange     '9.6.1',
+782 silly addNameRange     '8.10.1',
+782 silly addNameRange     '4.0.39',
+782 silly addNameRange     '6.0.104',
+782 silly addNameRange     '0.12.16',
+782 silly addNameRange     '7.0.59',
+782 silly addNameRange     '9.6.2',
+782 silly addNameRange     '8.10.2',
+782 silly addNameRange     '8.10.3',
+782 silly addNameRange     '8.10.4',
+782 silly addNameRange     '6.0.105',
+782 silly addNameRange     '7.0.60',
+782 silly addNameRange     '8.10.5',
+782 silly addNameRange     '8.10.6',
+782 silly addNameRange     '9.6.3',
+782 silly addNameRange     '8.10.7',
+782 silly addNameRange     '9.6.4',
+782 silly addNameRange     '7.0.61',
+782 silly addNameRange     '9.6.5',
+782 silly addNameRange     '8.10.8',
+782 silly addNameRange     '4.0.40',
+782 silly addNameRange     '6.0.106',
+782 silly addNameRange     '8.10.9',
+782 silly addNameRange     '9.6.6',
+782 silly addNameRange     '8.10.10',
+782 silly addNameRange     '10.0.0',
+782 silly addNameRange     '9.6.7',
+782 silly addNameRange     '10.0.1',
+782 silly addNameRange     '7.0.62',
+782 silly addNameRange     '6.0.107',
+782 silly addNameRange     '4.0.41',
+782 silly addNameRange     '9.6.8',
+782 silly addNameRange     '8.10.11',
+782 silly addNameRange     '10.0.2',
+782 silly addNameRange     '10.0.3',
+782 silly addNameRange     '9.6.9',
+782 silly addNameRange     '0.12.17',
+782 silly addNameRange     '7.0.63',
+782 silly addNameRange     '9.6.10',
+782 silly addNameRange     '4.0.42',
+782 silly addNameRange     '9.6.11',
+782 silly addNameRange     '6.0.108',
+782 silly addNameRange     '8.10.12',
+782 silly addNameRange     '9.6.12',
+782 silly addNameRange     '10.0.4',
+782 silly addNameRange     '9.6.13',
+782 silly addNameRange     '6.0.109',
+782 silly addNameRange     '10.0.5',
+782 silly addNameRange     '8.10.13',
+782 silly addNameRange     '7.0.64',
+782 silly addNameRange     '9.6.14',
+782 silly addNameRange     '10.0.6',
+782 silly addNameRange     '10.0.7',
+782 silly addNameRange     '9.6.15',
+782 silly addNameRange     '10.0.8',
+782 silly addNameRange     '8.10.14',
+782 silly addNameRange     '6.0.110',
+782 silly addNameRange     '10.0.9',
+782 silly addNameRange     '9.6.16',
+782 silly addNameRange     '8.10.15',
+782 silly addNameRange     '10.0.10',
+782 silly addNameRange     '10.1.0',
+782 silly addNameRange     '8.10.16',
+782 silly addNameRange     '9.6.17',
+782 silly addNameRange     '10.1.1',
+782 silly addNameRange     '7.0.65',
+782 silly addNameRange     '0.12.18',
+782 silly addNameRange     '8.10.17',
+782 silly addNameRange     '6.0.111',
+782 silly addNameRange     '4.0.43',
+782 silly addNameRange     '9.6.18',
+782 silly addNameRange     '10.1.2',
+782 silly addNameRange     '10.1.3',
+782 silly addNameRange     '9.6.19',
+782 silly addNameRange     '10.1.4',
+782 silly addNameRange     '6.0.112',
+782 silly addNameRange     '8.10.18',
+782 silly addNameRange     '9.6.20',
+782 silly addNameRange     '10.3.0',
+782 silly addNameRange     '10.3.1',
+782 silly addNameRange     '8.10.19',
+782 silly addNameRange     '9.6.21',
+782 silly addNameRange     '10.3.2',
+782 silly addNameRange     '4.0.44',
+782 silly addNameRange     '6.0.113',
+782 silly addNameRange     '7.0.66',
+782 silly addNameRange     '8.10.20',
+782 silly addNameRange     '10.3.3',
+782 silly addNameRange     '9.6.22',
+782 silly addNameRange     '10.3.4',
+782 silly addNameRange     '10.3.5',
+782 silly addNameRange     '10.3.6',
+782 silly addNameRange     '10.5.0',
+782 silly addNameRange     '10.5.1',
+782 silly addNameRange     '0.12.19',
+782 silly addNameRange     '4.0.45',
+782 silly addNameRange     '6.0.114',
+782 silly addNameRange     '8.10.21',
+782 silly addNameRange     '7.0.67',
+782 silly addNameRange     '9.6.23',
+782 silly addNameRange     '10.5.2',
+782 silly addNameRange     '10.5.3',
+782 silly addNameRange     '8.10.22',
+782 silly addNameRange     '9.6.24',
+782 silly addNameRange     '10.5.4',
+782 silly addNameRange     '6.0.115',
+782 silly addNameRange     '7.0.68',
+782 silly addNameRange     '8.10.23',
+782 silly addNameRange     '9.6.25',
+782 silly addNameRange     '10.5.5',
+782 silly addNameRange     '10.5.6',
+782 silly addNameRange     '0.12.20',
+782 silly addNameRange     '4.0.46',
+782 silly addNameRange     '6.0.116',
+782 silly addNameRange     '7.0.69',
+782 silly addNameRange     '8.10.24',
+782 silly addNameRange     '10.5.7',
+782 silly addNameRange     '9.6.26',
+782 silly addNameRange     '8.10.25',
+782 silly addNameRange     '9.6.27',
+782 silly addNameRange     '10.5.8',
+782 silly addNameRange     '10.7.0',
+782 silly addNameRange     '8.10.26',
+782 silly addNameRange     '9.6.28',
+782 silly addNameRange     '10.7.1',
+782 silly addNameRange     '10.7.2',
+782 silly addNameRange     '10.9.0',
+782 silly addNameRange     '8.10.27',
+782 silly addNameRange     '9.6.29',
+782 silly addNameRange     '10.9.1',
+782 silly addNameRange     '8.10.28',
+782 silly addNameRange     '9.6.30',
+782 silly addNameRange     '10.9.2',
+782 silly addNameRange     '10.9.3',
+782 silly addNameRange     '4.0.47',
+782 silly addNameRange     '6.0.117',
+782 silly addNameRange     '7.0.70',
+782 silly addNameRange     '8.10.29',
+782 silly addNameRange     '9.6.31',
+782 silly addNameRange     '10.9.4',
+782 silly addNameRange     '10.10.0',
+782 silly addNameRange     '10.10.1',
+782 silly addNameRange     '8.10.30',
+782 silly addNameRange     '10.10.2',
+782 silly addNameRange     '9.6.32',
+782 silly addNameRange     '10.10.3',
+782 silly addNameRange     '10.11.0',
+782 silly addNameRange     '10.11.1',
+782 silly addNameRange     '10.11.2',
+782 silly addNameRange     '10.11.3',
+782 silly addNameRange     '8.10.31',
+782 silly addNameRange     '8.10.32',
+782 silly addNameRange     '8.10.33',
+782 silly addNameRange     '9.6.33',
+782 silly addNameRange     '10.11.4',
+782 silly addNameRange     '4.0.48',
+782 silly addNameRange     '6.0.118',
+782 silly addNameRange     '7.0.71',
+782 silly addNameRange     '8.10.34',
+782 silly addNameRange     '9.6.34',
+782 silly addNameRange     '8.10.35',
+782 silly addNameRange     '10.11.5',
+782 silly addNameRange     '0.12.21',
+782 silly addNameRange     '4.9.0',
+782 silly addNameRange     '6.14.0',
+782 silly addNameRange     '7.10.0',
+782 silly addNameRange     '8.10.36',
+782 silly addNameRange     '9.6.35',
+782 silly addNameRange     '10.11.6',
+782 silly addNameRange     '10.11.7',
+782 silly addNameRange     '10.12.0',
+782 silly addNameRange     '10.12.1',
+782 silly addNameRange     '0.12.22',
+782 silly addNameRange     '4.9.1',
+782 silly addNameRange     '6.14.1',
+782 silly addNameRange     '7.10.1',
+782 silly addNameRange     '8.10.37',
+782 silly addNameRange     '9.6.36',
+782 silly addNameRange     '10.12.2',
+782 silly addNameRange     '10.12.3',
+782 silly addNameRange     '10.12.4',
+782 silly addNameRange     '10.12.5',
+782 silly addNameRange     '9.6.37',
+782 silly addNameRange     '10.12.6',
+782 silly addNameRange     '10.12.7',
+782 silly addNameRange     '6.14.2',
+782 silly addNameRange     '7.10.2',
+782 silly addNameRange     '8.10.38',
+782 silly addNameRange     '9.6.38',
+782 silly addNameRange     '10.12.8',
+782 silly addNameRange     '9.6.39',
+782 silly addNameRange     '10.12.9',
+782 silly addNameRange     '10.12.10',
+782 silly addNameRange     '9.6.40',
+782 silly addNameRange     '10.12.11',
+782 silly addNameRange     '10.12.12',
+782 silly addNameRange     '10.12.13',
+782 silly addNameRange     '10.12.14',
+782 silly addNameRange     '10.12.15',
+782 silly addNameRange     '10.12.16',
+782 silly addNameRange     '8.10.39',
+782 silly addNameRange     '9.6.41',
+782 silly addNameRange     '10.12.17',
+782 silly addNameRange     '10.12.18',
+782 silly addNameRange     '10.12.19',
+782 silly addNameRange     '10.12.20',
+782 silly addNameRange     '10.12.21',
+782 silly addNameRange     '10.12.22',
+782 silly addNameRange     '10.12.23',
+782 silly addNameRange     '10.12.24',
+782 silly addNameRange     '9.6.42',
+782 silly addNameRange     '8.10.40',
+782 silly addNameRange     '7.10.3',
+782 silly addNameRange     '6.14.3',
+782 silly addNameRange     '4.9.2',
+782 silly addNameRange     '11.9.0',
+782 silly addNameRange     '10.12.25',
+782 silly addNameRange     '11.9.1',
+782 silly addNameRange     '11.9.2',
+782 silly addNameRange     '11.9.3',
+782 silly addNameRange     '10.12.26',
+782 silly addNameRange     '11.9.4',
+782 silly addNameRange     '11.9.5',
+782 silly addNameRange     '10.12.27',
+782 silly addNameRange     '11.9.6',
+782 silly addNameRange     '11.10.0',
+782 silly addNameRange     '11.10.1',
+782 silly addNameRange     '10.12.28',
+782 silly addNameRange     '9.6.43',
+782 silly addNameRange     '8.10.41',
+782 silly addNameRange     '7.10.4',
+782 silly addNameRange     '6.14.4',
+782 silly addNameRange     '4.9.3',
+782 silly addNameRange     '0.12.23',
+782 silly addNameRange     '11.10.2',
+782 silly addNameRange     '11.10.3',
+782 silly addNameRange     '11.10.4',
+782 silly addNameRange     '10.12.29',
+782 silly addNameRange     '9.6.44',
+782 silly addNameRange     '8.10.42',
+782 silly addNameRange     '7.10.5',
+782 silly addNameRange     '11.10.5',
+782 silly addNameRange     '10.12.30',
+782 silly addNameRange     '9.6.45',
+782 silly addNameRange     '8.10.43',
+782 silly addNameRange     '11.10.6',
+782 silly addNameRange     '11.11.0',
+782 silly addNameRange     '11.11.1',
+782 silly addNameRange     '11.11.2',
+782 silly addNameRange     '10.14.0',
+782 silly addNameRange     '11.11.3',
+782 silly addNameRange     '10.14.1',
+782 silly addNameRange     '9.6.46',
+782 silly addNameRange     '8.10.44',
+782 silly addNameRange     '11.11.4',
+782 silly addNameRange     '11.11.5',
+782 silly addNameRange     '10.14.2',
+782 silly addNameRange     '11.11.6',
+782 silly addNameRange     '10.14.3',
+782 silly addNameRange     '9.6.47',
+782 silly addNameRange     '8.10.45',
+782 silly addNameRange     '11.11.7',
+782 silly addNameRange     '10.14.4',
+782 silly addNameRange     '11.11.8',
+782 silly addNameRange     '11.12.0',
+782 silly addNameRange     '11.12.1',
+782 silly addNameRange     '11.12.2',
+782 silly addNameRange     '11.12.3',
+782 silly addNameRange     '11.12.4',
+782 silly addNameRange     '11.13.0',
+782 silly addNameRange     '11.13.1',
+782 silly addNameRange     '11.13.2',
+782 silly addNameRange     '11.13.3',
+782 silly addNameRange     '11.13.4',
+782 silly addNameRange     '11.13.5',
+782 silly addNameRange     '11.13.6',
+782 silly addNameRange     '10.14.5',
+782 silly addNameRange     '8.10.46',
+782 silly addNameRange     '6.14.5',
+782 silly addNameRange     '11.13.7',
+782 silly addNameRange     '11.13.8',
+782 silly addNameRange     '10.14.6',
+782 silly addNameRange     '8.10.47',
+782 silly addNameRange     '9.6.48',
+782 silly addNameRange     '8.10.48',
+782 silly addNameRange     '7.10.6',
+782 silly addNameRange     '6.14.6',
+782 silly addNameRange     '11.13.9',
+782 silly addNameRange     '12.0.0',
+782 silly addNameRange     '11.13.10',
+782 silly addNameRange     '12.0.1',
+782 silly addNameRange     '12.0.2',
+782 silly addNameRange     '11.13.11',
+782 silly addNameRange     '10.14.7',
+782 silly addNameRange     '12.0.3',
+782 silly addNameRange     '11.13.12',
+782 silly addNameRange     '12.0.4',
+782 silly addNameRange     '11.13.13',
+782 silly addNameRange     '10.14.8',
+782 silly addNameRange     '9.6.49',
+782 silly addNameRange     '8.10.49',
+782 silly addNameRange     '12.0.5',
+782 silly addNameRange     '12.0.6',
+782 silly addNameRange     '12.0.7',
+782 silly addNameRange     '12.0.8',
+782 silly addNameRange     '11.13.14',
+782 silly addNameRange     '10.14.9',
+782 silly addNameRange     '12.0.9',
+782 silly addNameRange     '12.0.10',
+782 silly addNameRange     '11.13.15',
+782 silly addNameRange     '10.14.10',
+782 silly addNameRange     '12.0.11',
+782 silly addNameRange     '11.13.16',
+782 silly addNameRange     '10.14.11',
+782 silly addNameRange     '8.10.50',
+782 silly addNameRange     '12.0.12',
+782 silly addNameRange     '11.13.17',
+782 silly addNameRange     '10.14.12',
+782 silly addNameRange     '12.6.0',
+782 silly addNameRange     '12.6.1',
+782 silly addNameRange     '12.6.2',
+782 silly addNameRange     '12.6.3',
+782 silly addNameRange     '12.6.4',
+782 silly addNameRange     '12.6.5',
+782 silly addNameRange     '12.6.6',
+782 silly addNameRange     '12.6.7',
+782 silly addNameRange     '11.13.18',
+782 silly addNameRange     '10.14.13',
+782 silly addNameRange     '9.6.50',
+782 silly addNameRange     '8.10.51',
+782 silly addNameRange     '7.10.7',
+782 silly addNameRange     '6.14.7',
+782 silly addNameRange     '12.6.8',
+782 silly addNameRange     '10.14.14',
+782 silly addNameRange     '12.6.9',
+782 silly addNameRange     '12.7.0',
+782 silly addNameRange     '12.7.1',
+782 silly addNameRange     '11.13.19',
+782 silly addNameRange     '10.14.15',
+782 silly addNameRange     '12.7.2',
+782 silly addNameRange     '10.14.16',
+782 silly addNameRange     '9.6.51',
+782 silly addNameRange     '8.10.52',
+782 silly addNameRange     '12.7.3',
+782 silly addNameRange     '11.13.20',
+782 silly addNameRange     '10.14.17',
+782 silly addNameRange     '8.10.53',
+782 silly addNameRange     '12.7.4',
+782 silly addNameRange     '12.7.5',
+782 silly addNameRange     '10.14.18',
+782 silly addNameRange     '9.6.52',
+782 silly addNameRange     '8.10.54',
+782 silly addNameRange     '12.7.6',
+782 silly addNameRange     '11.13.21',
+782 silly addNameRange     '10.14.19',
+782 silly addNameRange     '12.7.7',
+782 silly addNameRange     '12.7.8',
+782 silly addNameRange     '12.7.9',
+782 silly addNameRange     '12.7.10',
+782 silly addNameRange     '11.13.22',
+782 silly addNameRange     '10.14.20',
+782 silly addNameRange     '12.7.11',
+782 silly addNameRange     '12.7.12',
+782 silly addNameRange     '10.14.21',
+782 silly addNameRange     '12.11.0',
+782 silly addNameRange     '12.11.1',
+782 silly addNameRange     '10.14.22',
+782 silly addNameRange     '8.10.55',
+782 silly addNameRange     '12.11.2',
+782 silly addNameRange     '12.11.3',
+782 silly addNameRange     '12.11.4',
+782 silly addNameRange     '12.11.5',
+782 silly addNameRange     '12.11.6',
+782 silly addNameRange     '11.13.23',
+782 silly addNameRange     '12.11.7',
+782 silly addNameRange     '11.15.0',
+782 silly addNameRange     '10.17.0',
+782 silly addNameRange     '9.6.53',
+782 silly addNameRange     '8.10.56',
+782 silly addNameRange     '7.10.8',
+782 silly addNameRange     '6.14.8',
+782 silly addNameRange     '4.9.4',
+782 silly addNameRange     '0.12.24',
+782 silly addNameRange     '12.12.0',
+782 silly addNameRange     '12.12.1',
+782 silly addNameRange     '12.12.2',
+782 silly addNameRange     '11.15.1',
+782 silly addNameRange     '10.17.1',
+782 silly addNameRange     '9.6.54',
+782 silly addNameRange     '8.10.57',
+782 silly addNameRange     '7.10.9',
+782 silly addNameRange     '6.14.9',
+782 silly addNameRange     '12.12.3',
+782 silly addNameRange     '11.15.2',
+782 silly addNameRange     '10.17.2',
+782 silly addNameRange     '9.6.55',
+782 silly addNameRange     '8.10.58',
+782 silly addNameRange     '12.12.4',
+782 silly addNameRange     '10.17.3',
+782 silly addNameRange     '12.12.5',
+782 silly addNameRange     '12.12.6',
+782 silly addNameRange     '10.17.4',
+782 silly addNameRange     '12.12.7',
+782 silly addNameRange     '10.17.5',
+782 silly addNameRange     '8.10.59',
+782 silly addNameRange     '12.12.8',
+782 silly addNameRange     '12.12.9',
+782 silly addNameRange     '12.12.10',
+782 silly addNameRange     '12.12.11',
+782 silly addNameRange     '12.12.12',
+782 silly addNameRange     '12.12.13',
+782 silly addNameRange     '11.15.3',
+782 silly addNameRange     '10.17.6',
+782 silly addNameRange     '12.12.14',
+782 silly addNameRange     '12.12.15',
+782 silly addNameRange     '10.17.7',
+782 silly addNameRange     '12.12.16',
+782 silly addNameRange     '10.17.8',
+782 silly addNameRange     '12.12.17',
+782 silly addNameRange     '10.17.9',
+782 silly addNameRange     '12.12.18',
+782 silly addNameRange     '12.12.19',
+782 silly addNameRange     '10.17.10',
+782 silly addNameRange     '12.12.20',
+782 silly addNameRange     '10.17.11',
+782 silly addNameRange     '12.12.21',
+782 silly addNameRange     '13.1.0',
+782 silly addNameRange     '12.12.22',
+782 silly addNameRange     '10.17.12',
+782 silly addNameRange     '13.1.1',
+782 silly addNameRange     '10.17.13',
+782 silly addNameRange     '13.1.2',
+782 silly addNameRange     '12.12.23',
+782 silly addNameRange     '13.1.3',
+782 silly addNameRange     '13.1.4',
+782 silly addNameRange     '12.12.24',
+782 silly addNameRange     '11.15.4',
+782 silly addNameRange     '13.1.5',
+782 silly addNameRange     '13.1.6',
+782 silly addNameRange     '13.1.7',
+782 silly addNameRange     '13.1.8',
+782 silly addNameRange     '12.12.25',
+782 silly addNameRange     '13.5.0',
+782 silly addNameRange     '13.5.1',
+782 silly addNameRange     '12.12.26',
+782 silly addNameRange     '11.15.5',
+782 silly addNameRange     '10.17.14',
+782 silly addNameRange     '13.5.2',
+782 silly addNameRange     '13.5.3',
+782 silly addNameRange     '13.7.0',
+782 silly addNameRange     '13.7.1',
+782 silly addNameRange     '12.12.27',
+782 silly addNameRange     '11.15.6',
+782 silly addNameRange     '10.17.15',
+782 silly addNameRange     '13.7.2',
+782 silly addNameRange     '13.7.3',
+782 silly addNameRange     '13.7.4',
+782 silly addNameRange     '12.12.28',
+782 silly addNameRange     '11.15.7',
+782 silly addNameRange     '10.17.16',
+782 silly addNameRange     '13.7.5',
+782 silly addNameRange     '13.7.6',
+782 silly addNameRange     '13.7.7',
+782 silly addNameRange     '12.12.29',
+782 silly addNameRange     '10.17.17',
+782 silly addNameRange     '13.9.0',
+782 silly addNameRange     '13.9.1',
+782 silly addNameRange     '12.12.30',
+782 silly addNameRange     '13.9.2',
+782 silly addNameRange     '13.9.3',
+782 silly addNameRange     '13.9.4',
+782 silly addNameRange     '12.12.31',
+782 silly addNameRange     '13.9.5',
+782 silly addNameRange     '12.12.32',
+782 silly addNameRange     '11.15.8',
+782 silly addNameRange     '13.9.6',
+782 silly addNameRange     '12.12.33',
+782 silly addNameRange     '11.15.9',
+782 silly addNameRange     '13.9.7',
+782 silly addNameRange     '12.12.34',
+782 silly addNameRange     '10.17.18',
+782 silly addNameRange     '13.9.8',
+782 silly addNameRange     '13.11.0',
+782 silly addNameRange     '13.11.1',
+782 silly addNameRange     '12.12.35',
+782 silly addNameRange     '11.15.10',
+782 silly addNameRange     '10.17.19',
+782 silly addNameRange     '8.10.60',
+782 silly addNameRange     '7.10.10',
+782 silly addNameRange     '6.14.10',
+782 silly addNameRange     '13.13.0',
+782 silly addNameRange     '12.12.36',
+782 silly addNameRange     '11.15.11',
+782 silly addNameRange     '10.17.20',
+782 silly addNameRange     '13.13.1',
+782 silly addNameRange     '13.13.2',
+782 silly addNameRange     '12.12.37',
+782 silly addNameRange     '11.15.12',
+782 silly addNameRange     '10.17.21',
+782 silly addNameRange     '13.13.3',
+782 silly addNameRange     '13.13.4',
+782 silly addNameRange     '13.13.5',
+782 silly addNameRange     '12.12.38',
+782 silly addNameRange     '14.0.0',
+782 silly addNameRange     '13.13.6',
+782 silly addNameRange     '14.0.1',
+782 silly addNameRange     '12.12.39',
+782 silly addNameRange     '14.0.2',
+782 silly addNameRange     '10.17.22',
+782 silly addNameRange     '14.0.3',
+782 silly addNameRange     '12.12.40',
+782 silly addNameRange     '11.15.13',
+782 silly addNameRange     '10.17.23',
+782 silly addNameRange     '9.6.56',
+782 silly addNameRange     '8.10.61',
+782 silly addNameRange     '7.10.11',
+782 silly addNameRange     '13.13.7',
+782 silly addNameRange     '14.0.4',
+782 silly addNameRange     '13.13.8',
+782 silly addNameRange     '12.12.41',
+782 silly addNameRange     '11.15.14',
+782 silly addNameRange     '10.17.24',
+782 silly addNameRange     '14.0.5',
+782 silly addNameRange     '13.13.9',
+782 silly addNameRange     '12.12.42',
+782 silly addNameRange     '14.0.6',
+782 silly addNameRange     '14.0.7',
+782 silly addNameRange     '14.0.8',
+782 silly addNameRange     '12.12.43',
+782 silly addNameRange     '14.0.9',
+782 silly addNameRange     '14.0.10',
+782 silly addNameRange     '14.0.11',
+782 silly addNameRange     '13.13.10',
+782 silly addNameRange     '12.12.44',
+782 silly addNameRange     '14.0.12',
+782 silly addNameRange     '13.13.11',
+782 silly addNameRange     '12.12.45',
+782 silly addNameRange     '11.15.15',
+782 silly addNameRange     '10.17.25',
+782 silly addNameRange     '12.12.46',
+782 silly addNameRange     '14.0.13',
+782 silly addNameRange     '13.13.12',
+782 silly addNameRange     '12.12.47',
+782 silly addNameRange     '11.15.16',
+782 silly addNameRange     '10.17.26',
+782 silly addNameRange     '14.0.14',
+782 silly addNameRange     '14.0.15',
+782 silly addNameRange     '14.0.16',
+782 silly addNameRange     '13.13.13',
+782 silly addNameRange     '14.0.17',
+782 silly addNameRange     '12.12.48',
+782 silly addNameRange     '11.15.17',
+782 silly addNameRange     '14.0.18',
+782 silly addNameRange     '14.0.19',
+782 silly addNameRange     '14.0.20',
+782 silly addNameRange     '14.0.21',
+782 silly addNameRange     '13.13.14',
+782 silly addNameRange     '12.12.49',
+782 silly addNameRange     '11.15.18',
+782 silly addNameRange     '10.17.27',
+782 silly addNameRange     '14.0.22',
+782 silly addNameRange     '12.12.50',
+782 silly addNameRange     '14.0.23',
+782 silly addNameRange     '14.0.24',
+782 silly addNameRange     '12.12.51',
+782 silly addNameRange     '14.0.25',
+782 silly addNameRange     '13.13.15',
+782 silly addNameRange     '12.12.52',
+782 silly addNameRange     '11.15.19',
+782 silly addNameRange     '10.17.28',
+782 silly addNameRange     '9.6.57',
+782 silly addNameRange     '8.10.62',
+782 silly addNameRange     '14.0.26',
+782 silly addNameRange     '12.12.53',
+782 silly addNameRange     '11.15.20',
+782 silly addNameRange     '14.0.27',
+782 silly addNameRange     '12.12.54',
+782 silly addNameRange     '14.6.0',
+782 silly addNameRange     '14.6.1',
+782 silly addNameRange     '14.6.2',
+782 silly addNameRange     '14.6.3',
+782 silly addNameRange     '13.13.16',
+782 silly addNameRange     '12.12.55',
+782 silly addNameRange     '11.15.21',
+782 silly addNameRange     '10.17.29',
+782 silly addNameRange     '9.6.58',
+782 silly addNameRange     '8.10.63',
+782 silly addNameRange     '7.10.12',
+782 silly addNameRange     '6.14.11',
+782 silly addNameRange     '14.6.4',
+782 silly addNameRange     '13.13.17',
+782 silly addNameRange     '12.12.56',
+782 silly addNameRange     '11.15.22',
+782 silly addNameRange     '10.17.30',
+782 silly addNameRange     '14.10.0',
+782 silly addNameRange     '13.13.18',
+782 silly addNameRange     '12.12.57',
+782 silly addNameRange     '11.15.23',
+782 silly addNameRange     '10.17.31',
+782 silly addNameRange     '14.10.1',
+782 silly addNameRange     '13.13.19',
+782 silly addNameRange     '12.12.58',
+782 silly addNameRange     '11.15.24',
+782 silly addNameRange     '10.17.32',
+782 silly addNameRange     '10.17.33',
+782 silly addNameRange     '14.10.2',
+782 silly addNameRange     '13.13.20',
+782 silly addNameRange     '12.12.59',
+782 silly addNameRange     '11.15.25',
+782 silly addNameRange     '10.17.34',
+782 silly addNameRange     '14.10.3',
+782 silly addNameRange     '13.13.21',
+782 silly addNameRange     '12.12.60',
+782 silly addNameRange     '11.15.26',
+782 silly addNameRange     '10.17.35',
+782 silly addNameRange     '9.6.59',
+782 silly addNameRange     '8.10.64',
+782 silly addNameRange     '7.10.13',
+782 silly addNameRange     '6.14.12',
+782 silly addNameRange     '12.12.61',
+782 silly addNameRange     '11.15.27',
+782 silly addNameRange     '14.11.0',
+782 silly addNameRange     '12.12.62',
+782 silly addNameRange     '14.11.1',
+782 silly addNameRange     '14.11.2',
+782 silly addNameRange     '14.11.3',
+782 silly addNameRange     '14.11.4',
+782 silly addNameRange     '13.13.22',
+782 silly addNameRange     '12.12.63',
+782 silly addNameRange     '11.15.28',
+782 silly addNameRange     '10.17.36',
+782 silly addNameRange     '14.11.5',
+782 silly addNameRange     '13.13.23',
+782 silly addNameRange     '12.12.64',
+782 silly addNameRange     '11.15.29',
+782 silly addNameRange     '10.17.37',
+782 silly addNameRange     '14.11.6',
+782 silly addNameRange     '13.13.24',
+782 silly addNameRange     '12.12.65',
+782 silly addNameRange     '11.15.30',
+782 silly addNameRange     '10.17.38',
+782 silly addNameRange     '14.11.7',
+782 silly addNameRange     '12.12.66',
+782 silly addNameRange     '14.11.8',
+782 silly addNameRange     '13.13.25',
+782 silly addNameRange     '12.12.67',
+782 silly addNameRange     '11.15.31',
+782 silly addNameRange     '10.17.39',
+782 silly addNameRange     '14.11.9',
+782 silly addNameRange     '13.13.26',
+782 silly addNameRange     '12.12.68',
+782 silly addNameRange     '11.15.32',
+782 silly addNameRange     '10.17.40',
+782 silly addNameRange     '9.6.60',
+782 silly addNameRange     '8.10.65',
+782 silly addNameRange     '7.10.14',
+782 silly addNameRange     '6.14.13',
+782 silly addNameRange     '4.9.5',
+782 silly addNameRange     '0.12.25',
+782 silly addNameRange     '14.11.10',
+782 silly addNameRange     '14.11.11',
+782 silly addNameRange     '14.14.0',
+782 silly addNameRange     '13.13.27',
+782 silly addNameRange     '12.12.69',
+782 silly addNameRange     '14.14.1',
+782 silly addNameRange     '12.12.70',
+782 silly addNameRange     '10.17.41',
+782 silly addNameRange     '14.14.2',
+782 silly addNameRange     '13.13.28',
+782 silly addNameRange     '12.19.0',
+782 silly addNameRange     '11.15.33',
+782 silly addNameRange     '10.17.42',
+782 silly addNameRange     '12.19.1',
+782 silly addNameRange     '14.14.3',
+782 silly addNameRange     '14.14.4',
+782 silly addNameRange     '14.14.5',
+782 silly addNameRange     '13.13.29',
+782 silly addNameRange     '12.19.2',
+782 silly addNameRange     '11.15.34',
+782 silly addNameRange     '10.17.43',
+782 silly addNameRange     '14.14.6',
+782 silly addNameRange     '13.13.30',
+782 silly addNameRange     '12.19.3',
+782 silly addNameRange     '11.15.35',
+782 silly addNameRange     '10.17.44',
+782 silly addNameRange     '9.6.61',
+782 silly addNameRange     '8.10.66',
+782 silly addNameRange     '14.14.7',
+782 silly addNameRange     '12.19.4',
+782 silly addNameRange     '14.14.8',
+782 silly addNameRange     '13.13.31',
+782 silly addNameRange     '12.19.5',
+782 silly addNameRange     '11.15.36',
+782 silly addNameRange     '10.17.45',
+782 silly addNameRange     '14.14.9',
+782 silly addNameRange     '13.13.32',
+782 silly addNameRange     '12.19.6',
+782 silly addNameRange     '11.15.37',
+782 silly addNameRange     '10.17.46',
+782 silly addNameRange     '14.14.10',
+782 silly addNameRange     '13.13.33',
+782 silly addNameRange     '12.19.7',
+782 silly addNameRange     '11.15.38',
+782 silly addNameRange     '10.17.47',
+782 silly addNameRange     '13.13.34',
+782 silly addNameRange     '12.19.8',
+782 silly addNameRange     '11.15.39',
+782 silly addNameRange     '10.17.48',
+782 silly addNameRange     '14.14.11',
+782 silly addNameRange     '13.13.35',
+782 silly addNameRange     '14.14.12',
+782 silly addNameRange     '14.14.13',
+782 silly addNameRange     '13.13.36',
+782 silly addNameRange     '12.19.9',
+782 silly addNameRange     '11.15.40',
+782 silly addNameRange     '10.17.49',
+782 silly addNameRange     '14.14.14',
+782 silly addNameRange     '14.14.15',
+782 silly addNameRange     '13.13.37',
+782 silly addNameRange     '12.19.10',
+782 silly addNameRange     '11.15.41',
+782 silly addNameRange     '14.14.16',
+782 silly addNameRange     '13.13.38',
+782 silly addNameRange     '12.19.11',
+782 silly addNameRange     '11.15.42',
+782 silly addNameRange     '10.17.50',
+782 silly addNameRange     '14.14.17',
+782 silly addNameRange     '14.14.18',
+782 silly addNameRange     '14.14.19',
+782 silly addNameRange     '14.14.20',
+782 silly addNameRange     '13.13.39',
+782 silly addNameRange     '12.19.12',
+782 silly addNameRange     '11.15.43',
+782 silly addNameRange     '12.19.13',
+782 silly addNameRange     '14.14.21',
+782 silly addNameRange     '13.13.40',
+782 silly addNameRange     '12.19.14',
+782 silly addNameRange     '11.15.44',
+782 silly addNameRange     '10.17.51',
+782 silly addNameRange     '14.14.22',
+782 silly addNameRange     '12.19.15',
+782 silly addNameRange     '14.14.23',
+782 silly addNameRange     '13.13.41',
+782 silly addNameRange     '14.14.24',
+782 silly addNameRange     '14.14.25',
+782 silly addNameRange     '12.19.16',
+782 silly addNameRange     '14.14.26',
+782 silly addNameRange     '14.14.27',
+782 silly addNameRange     '12.20.0',
+782 silly addNameRange     '14.14.28',
+782 silly addNameRange     '13.13.42',
+782 silly addNameRange     '12.20.1',
+782 silly addNameRange     '11.15.45',
+782 silly addNameRange     '10.17.52',
+782 silly addNameRange     '14.14.29',
+782 silly addNameRange     '13.13.43',
+782 silly addNameRange     '12.20.2',
+782 silly addNameRange     '11.15.46',
+782 silly addNameRange     '10.17.53',
+782 silly addNameRange     '14.14.30',
+782 silly addNameRange     '13.13.44',
+782 silly addNameRange     '12.20.3',
+782 silly addNameRange     '14.14.31',
+782 silly addNameRange     '13.13.45',
+782 silly addNameRange     '12.20.4',
+782 silly addNameRange     '11.15.47',
+782 silly addNameRange     '10.17.54',
+782 silly addNameRange     '14.14.32',
+782 silly addNameRange     '11.15.48',
+782 silly addNameRange     '10.17.55',
+782 silly addNameRange     '14.14.33',
+782 silly addNameRange     '13.13.46',
+782 silly addNameRange     '12.20.5',
+782 silly addNameRange     '14.14.34',
+782 silly addNameRange     '14.14.35',
+782 silly addNameRange     '13.13.47',
+782 silly addNameRange     '12.20.6',
+782 silly addNameRange     '11.15.49',
+782 silly addNameRange     '14.14.36',
+782 silly addNameRange     '14.14.37',
+782 silly addNameRange     '13.13.48',
+782 silly addNameRange     '12.20.7',
+782 silly addNameRange     '11.15.50',
+782 silly addNameRange     '10.17.56',
+782 silly addNameRange     '14.14.38',
+782 silly addNameRange     '14.14.39',
+782 silly addNameRange     '13.13.49',
+782 silly addNameRange     '12.20.8',
+782 silly addNameRange     '11.15.51',
+782 silly addNameRange     '10.17.57',
+782 silly addNameRange     '14.14.40',
+782 silly addNameRange     '14.14.41',
+782 silly addNameRange     '13.13.50',
+782 silly addNameRange     '12.20.9',
+782 silly addNameRange     '11.15.52',
+782 silly addNameRange     '10.17.58',
+782 silly addNameRange     '12.20.10',
+782 silly addNameRange     '15.0.0',
+782 silly addNameRange     '14.14.42',
+782 silly addNameRange     '15.0.1',
+782 silly addNameRange     '14.14.43',
+782 silly addNameRange     '13.13.51',
+782 silly addNameRange     '12.20.11',
+782 silly addNameRange     '11.15.53',
+782 silly addNameRange     '10.17.59',
+782 silly addNameRange     '15.0.2',
+782 silly addNameRange     '14.14.44',
+782 silly addNameRange     '12.20.12',
+782 silly addNameRange     '15.0.3',
+782 silly addNameRange     '14.14.45',
+782 silly addNameRange     '13.13.52',
+782 silly addNameRange     '12.20.13',
+782 silly addNameRange     '11.15.54',
+782 silly addNameRange     '10.17.60',
+782 silly addNameRange     '15.3.0',
+782 silly addNameRange     '14.17.0',
+782 silly addNameRange     '15.3.1',
+782 silly addNameRange     '15.6.0',
+782 silly addNameRange     '15.6.1',
+782 silly addNameRange     '14.17.1',
+782 silly addNameRange     '15.6.2',
+782 silly addNameRange     '14.17.2',
+782 silly addNameRange     '12.20.14',
+782 silly addNameRange     '15.9.0',
+782 silly addNameRange     '15.12.0',
+782 silly addNameRange     '15.12.1',
+782 silly addNameRange     '15.12.2',
+782 silly addNameRange     '14.17.3',
+782 silly addNameRange     '12.20.15',
+782 silly addNameRange     '15.12.3',
+782 silly addNameRange     '15.12.4',
+782 silly addNameRange     '14.17.4',
+782 silly addNameRange     '15.12.5',
+782 silly addNameRange     '15.14.0',
+782 silly addNameRange     '16.0.0',
+782 silly addNameRange     '15.14.1',
+782 silly addNameRange     '16.0.1',
+782 silly addNameRange     '14.17.5',
+782 silly addNameRange     '12.20.16',
+782 silly addNameRange     '16.0.2',
+782 silly addNameRange     '16.0.3',
+782 silly addNameRange     '16.3.0',
+782 silly addNameRange     '16.3.1',
+782 silly addNameRange     '15.14.2',
+782 silly addNameRange     '16.3.2',
+782 silly addNameRange     '16.3.3',
+782 silly addNameRange     '16.4.0',
+782 silly addNameRange     '16.4.1',
+782 silly addNameRange     '16.4.2',
+782 silly addNameRange     '15.14.3',
+782 silly addNameRange     '14.17.6',
+782 silly addNameRange     '12.20.17',
+782 silly addNameRange     '16.4.3',
+782 silly addNameRange     '16.4.4',
+782 silly addNameRange     '16.4.5',
+782 silly addNameRange     '16.4.6',
+782 silly addNameRange     '15.14.4',
+782 silly addNameRange     '16.4.7',
+782 silly addNameRange     '16.4.8',
+782 silly addNameRange     '16.4.9',
+782 silly addNameRange     '16.4.10',
+782 silly addNameRange     '15.14.5',
+782 silly addNameRange     '14.17.7',
+782 silly addNameRange     '12.20.18',
+782 silly addNameRange     '16.4.11',
+782 silly addNameRange     '15.14.6',
+782 silly addNameRange     '14.17.8',
+782 silly addNameRange     '16.4.12',
+782 silly addNameRange     '15.14.7',
+782 silly addNameRange     '14.17.9',
+782 silly addNameRange     '12.20.19',
+782 silly addNameRange     '16.4.13',
+782 silly addNameRange     '16.4.14',
+782 silly addNameRange     '16.6.0',
+782 silly addNameRange     '16.6.1',
+782 silly addNameRange     '16.6.2',
+782 silly addNameRange     '15.14.8',
+782 silly addNameRange     '14.17.10',
+782 silly addNameRange     '16.7.0',
+782 silly addNameRange     '16.7.1',
+782 silly addNameRange     '15.14.9',
+782 silly addNameRange     '14.17.11',
+782 silly addNameRange     '12.20.20',
+782 silly addNameRange     '16.7.2',
+782 silly addNameRange     '14.17.12',
+782 silly addNameRange     '12.20.21',
+782 silly addNameRange     '16.7.3',
+782 silly addNameRange     '16.7.4',
+782 silly addNameRange     '16.7.5',
+782 silly addNameRange     '16.7.6',
+782 silly addNameRange     '16.7.7',
+782 silly addNameRange     '16.7.8',
+782 silly addNameRange     '16.7.9',
+782 silly addNameRange     '14.17.13',
+782 silly addNameRange     '12.20.22',
+782 silly addNameRange     '16.7.10',
+782 silly addNameRange     '14.17.14',
+782 silly addNameRange     '12.20.23',
+782 silly addNameRange     '16.7.11',
+782 silly addNameRange     '16.7.12',
+782 silly addNameRange     '16.7.13',
+782 silly addNameRange     '14.17.15',
+782 silly addNameRange     '12.20.24',
+782 silly addNameRange     '16.9.0',
+782 silly addNameRange     '16.9.1',
+782 silly addNameRange     '14.17.16',
+782 silly addNameRange     '12.20.25',
+782 silly addNameRange     '16.9.2',
+782 silly addNameRange     '14.17.17',
+782 silly addNameRange     '16.9.3',
+782 silly addNameRange     '16.9.4',
+782 silly addNameRange     '16.9.5',
+782 silly addNameRange     '14.17.18',
+782 silly addNameRange     '12.20.26',
+782 silly addNameRange     '16.9.6',
+782 silly addNameRange     '16.10.0',
+782 silly addNameRange     '16.10.1',
+782 silly addNameRange     '14.17.19',
+782 silly addNameRange     '12.20.27',
+782 silly addNameRange     '16.10.2',
+782 silly addNameRange     '14.17.20',
+782 silly addNameRange     '16.10.3',
+782 silly addNameRange     '14.17.21',
+782 silly addNameRange     '12.20.28',
+782 silly addNameRange     '16.10.4',
+782 silly addNameRange     '14.17.22',
+782 silly addNameRange     '12.20.29',
+782 silly addNameRange     '16.10.5',
+782 silly addNameRange     '16.10.6',
+782 silly addNameRange     '14.17.23',
+782 silly addNameRange     '12.20.30',
+782 silly addNameRange     '16.10.7',
+782 silly addNameRange     '14.17.24',
+782 silly addNameRange     '12.20.31',
+782 silly addNameRange     '16.10.8',
+782 silly addNameRange     '14.17.25',
+782 silly addNameRange     '12.20.32',
+782 silly addNameRange     '16.10.9',
+782 silly addNameRange     '14.17.26',
+782 silly addNameRange     '12.20.33',
+782 silly addNameRange     '16.11.0',
+782 silly addNameRange     '14.17.27',
+782 silly addNameRange     '16.11.1',
+782 silly addNameRange     '16.11.2',
+782 silly addNameRange     '16.11.3',
+782 silly addNameRange     '14.17.28',
+782 silly addNameRange     '16.11.4',
+782 silly addNameRange     '14.17.29',
+782 silly addNameRange     '12.20.34',
+782 silly addNameRange     '16.11.5',
+782 silly addNameRange     '14.17.30',
+782 silly addNameRange     '12.20.35',
+782 silly addNameRange     '14.17.31',
+782 silly addNameRange     '16.11.6',
+782 silly addNameRange     '14.17.32',
+782 silly addNameRange     '12.20.36',
+782 silly addNameRange     '16.11.7',
+782 silly addNameRange     '14.17.33',
+782 silly addNameRange     '12.20.37',
+782 silly addNameRange     '16.11.8',
+782 silly addNameRange     '14.17.34',
+782 silly addNameRange     '16.11.9',
+782 silly addNameRange     '16.11.10',
+782 silly addNameRange     '16.11.11',
+782 silly addNameRange     '14.18.0',
+782 silly addNameRange     '16.11.12',
+782 silly addNameRange     '16.11.13',
+782 silly addNameRange     '17.0.0',
+782 silly addNameRange     '16.11.14',
+782 silly addNameRange     '14.18.1',
+782 silly addNameRange     '17.0.1',
+782 silly addNameRange     '17.0.2',
+782 silly addNameRange     '16.11.15',
+782 silly addNameRange     '14.18.2',
+782 silly addNameRange     '12.20.38',
+782 silly addNameRange     '17.0.3',
+782 silly addNameRange     '16.11.16',
+782 silly addNameRange     '17.0.4',
+782 silly addNameRange     '16.11.17',
+782 silly addNameRange     '17.0.5',
+782 silly addNameRange     '14.18.3',
+782 silly addNameRange     '12.20.39',
+782 silly addNameRange     '17.0.6',
+782 silly addNameRange     '14.18.4',
+782 silly addNameRange     '12.20.40',
+782 silly addNameRange     '17.0.7',
+782 silly addNameRange     '16.11.18',
+782 silly addNameRange     '17.0.8',
+782 silly addNameRange     '16.11.19',
+782 silly addNameRange     '14.18.5',
+782 silly addNameRange     '12.20.41',
+782 silly addNameRange     '17.0.9',
+782 silly addNameRange     '16.11.20',
+782 silly addNameRange     '14.18.6',
+782 silly addNameRange     '12.20.42',
+782 silly addNameRange     '14.18.7',
+782 silly addNameRange     '17.0.10',
+782 silly addNameRange     '16.11.21',
+782 silly addNameRange     '14.18.8',
+782 silly addNameRange     '14.18.9',
+782 silly addNameRange     '17.0.11',
+782 silly addNameRange     '17.0.12',
+782 silly addNameRange     '17.0.13',
+782 silly addNameRange     '17.0.14',
+782 silly addNameRange     '16.11.22',
+782 silly addNameRange     '14.18.10',
+782 silly addNameRange     '12.20.43',
+782 silly addNameRange     '17.0.15',
+782 silly addNameRange     '17.0.16',
+782 silly addNameRange     '17.0.17',
+782 silly addNameRange     '16.11.23',
+782 silly addNameRange     '14.18.11',
+782 silly addNameRange     '12.20.44',
+782 silly addNameRange     '12.20.45',
+782 silly addNameRange     '16.11.24',
+782 silly addNameRange     '17.0.18',
+782 silly addNameRange     '16.11.25',
+782 silly addNameRange     '14.18.12',
+782 silly addNameRange     '12.20.46',
+782 silly addNameRange     '17.0.19',
+782 silly addNameRange     '17.0.20',
+782 silly addNameRange     '17.0.21',
+782 silly addNameRange     '16.11.26',
+782 silly addNameRange     '12.20.47',
+782 silly addNameRange     '17.0.22',
+782 silly addNameRange     '17.0.23',
+782 silly addNameRange     '17.0.24',
+782 silly addNameRange     '16.11.27',
+782 silly addNameRange     '14.18.13',
+782 silly addNameRange     '12.20.48',
+782 silly addNameRange     '17.0.25',
+782 silly addNameRange     '17.0.26',
+782 silly addNameRange     '16.11.28',
+782 silly addNameRange     '14.18.14',
+782 silly addNameRange     '12.20.49',
+782 silly addNameRange     '17.0.27',
+782 silly addNameRange     '16.11.29',
+782 silly addNameRange     '14.18.15',
+782 silly addNameRange     '17.0.28',
+782 silly addNameRange     '16.11.30',
+782 silly addNameRange     '17.0.29',
+782 silly addNameRange     '16.11.31',
+782 silly addNameRange     '14.18.16',
+782 silly addNameRange     '12.20.50',
+782 silly addNameRange     '17.0.30',
+782 silly addNameRange     '16.11.32',
+782 silly addNameRange     '17.0.31',
+782 silly addNameRange     '16.11.33',
+782 silly addNameRange     '17.0.32',
+782 silly addNameRange     '16.11.34',
+782 silly addNameRange     '14.18.17',
+782 silly addNameRange     '12.20.51',
+782 silly addNameRange     '17.0.33',
+782 silly addNameRange     '16.11.35',
+782 silly addNameRange     '14.18.18',
+782 silly addNameRange     '12.20.52',
+782 silly addNameRange     '17.0.34',
+782 silly addNameRange     '16.11.36',
+782 silly addNameRange     '17.0.35',
+782 silly addNameRange     '17.0.36',
+782 silly addNameRange     '17.0.37',
+782 silly addNameRange     '16.11.37',
+782 silly addNameRange     '14.18.19',
+782 silly addNameRange     '12.20.53',
+782 silly addNameRange     '17.0.38',
+782 silly addNameRange     '16.11.38',
+782 silly addNameRange     '14.18.20',
+782 silly addNameRange     '12.20.54',
+782 silly addNameRange     '17.0.39',
+782 silly addNameRange     '17.0.40',
+782 silly addNameRange     '17.0.41',
+782 silly addNameRange     '16.11.39',
+782 silly addNameRange     '14.18.21',
+782 silly addNameRange     '12.20.55',
+782 silly addNameRange     '17.0.42',
+782 silly addNameRange     '17.0.43',
+782 silly addNameRange     '16.11.40',
+782 silly addNameRange     '17.0.44',
+782 silly addNameRange     '16.11.41',
+782 silly addNameRange     '18.0.0',
+782 silly addNameRange     '17.0.45' ] ]
+783 silly addNamed @types/node@18.0.0
+784 verbose addNamed "18.0.0" is a plain semver version for @types/node
+785 silly cache afterAdd @types/node@18.0.0
+786 verbose afterAdd /Users/jinwoopark/.npm/@types/node/18.0.0/package/package.json not in flight; writing
+787 verbose correctMkdir /Users/jinwoopark/.npm correctMkdir not in flight; initializing
+788 verbose afterAdd /Users/jinwoopark/.npm/@types/node/18.0.0/package/package.json written
+789 silly install resolved [ { name: '@types/node',
+789 silly install resolved     version: '18.0.0',
+789 silly install resolved     description: 'TypeScript definitions for Node.js',
+789 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node',
+789 silly install resolved     license: 'MIT',
+789 silly install resolved     contributors:
+789 silly install resolved      [ [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object],
+789 silly install resolved        [Object] ],
+789 silly install resolved     main: '',
+789 silly install resolved     types: 'index.d.ts',
+789 silly install resolved     repository:
+789 silly install resolved      { type: 'git',
+789 silly install resolved        url: 'git+https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+789 silly install resolved        directory: 'types/node' },
+789 silly install resolved     scripts: {},
+789 silly install resolved     dependencies: {},
+789 silly install resolved     typesPublisherContentHash: '7b0d8dcde4896c79ad74f0d57a24996d6812633e45ed2abd06201f1b078dd9db',
+789 silly install resolved     typeScriptVersion: '4.0',
+789 silly install resolved     _id: '@types/node@18.0.0',
+789 silly install resolved     dist:
+789 silly install resolved      { integrity: 'sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==',
+789 silly install resolved        shasum: '67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a',
+789 silly install resolved        tarball: 'https://registry.npmjs.org/@types/node/-/node-18.0.0.tgz',
+789 silly install resolved        fileCount: 61,
+789 silly install resolved        unpackedSize: 1701852,
+789 silly install resolved        signatures: [Object],
+789 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiqmTVACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoIIg/+LiSJ0Jc+Ak5vFyGtfnUnslrfKdrxW5/6dqxTcpGiPu65ZuJP\r\nqOtcJV0QvaIMa6+giZrxd0/5S51Afivc5/BFPH6Vl/rISn+abTpDFpH6ydlG\r\nYGCabLG2l8f2sZpROLcFkAVtzIEwxyE+O4PB8ecKJBPhtYW5sENjoa1WVeEt\r\nOG6BcPHeDQMt93FvAG1VJCSA8m/w7s+s8OORc0tfD6zdjYLah7qnhYrRDSJz\r\nWMfEa+vrfal5CXun2cMK6rwEYFxzoATlUzyZmndWadCEeoH5UeCaHxdIs4gx\r\n2G9G2I7l1pm7wI/IksQYJWVLnuy2hDtTdXQ9O9AS5dDnSKVUojQbYWRdAKs7\r\nBlEdWvgKzL339E511rTUIQBckkFmwCyZ/U2b3r6E6cyYy604eVi+88rIpqeq\r\ndV7KVMteUuhgyc0YEQGQSSV3dKvHGCClkaHBl4o3AIfcs1/PCaV7vsPh/bQr\r\noOq0KP85zGj4jBqhL9+53YuE4KX0DLJALaUL0Y/+AxDXOjKzVhoNzTpZHT9+\r\nt19C0bES4/Pd2ToUjaoQaokd9CmTSQVOJT9DsGvfFEYGehN658ceghSJ2kMF\r\nPLmhUmxzLVvCapYzZcaY7VEVMcmhoU9YOQsfqqdzZRjqNL+ohuDNmuiycU9L\r\n9wWGEoUhLjrOmq1TYa+o6WVLv2kW2Qa1Z/U=\r\n=3P0x\r\n-----END PGP SIGNATURE-----\r\n' },
+789 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+789 silly install resolved     directories: {},
+789 silly install resolved     maintainers: [ [Object] ],
+789 silly install resolved     _npmOperationalInternal:
+789 silly install resolved      { host: 's3://npm-registry-packages',
+789 silly install resolved        tmp: 'tmp/node_18.0.0_1655334101398_0.681242122035342' },
+789 silly install resolved     _hasShrinkwrap: false,
+789 silly install resolved     _shasum: '67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a',
+789 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/node/-/node-18.0.0.tgz',
+789 silly install resolved     _from: '@types/node@*',
+789 silly install resolved     bugs: { url: 'https://github.com/DefinitelyTyped/DefinitelyTyped/issues' },
+789 silly install resolved     readme: 'ERROR: No README data found!' } ]
+790 info install @types/node@18.0.0 into /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+791 info installOne @types/node@18.0.0
+792 verbose installOne of @types/node to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer not in flight; installing
+793 verbose correctMkdir /Users/jinwoopark/.npm/_locks correctMkdir not in flight; initializing
+794 verbose lock using /Users/jinwoopark/.npm/_locks/types-node-a4679593d5045975.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+795 silly install write writing @types/node 18.0.0 to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+796 verbose unbuild node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+797 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+798 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+799 verbose tar unpack /Users/jinwoopark/.npm/@types/node/18.0.0/package.tgz
+800 verbose tar unpacking to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+801 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node is being purged
+802 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+803 silly gunzTarPerm modes [ '755', '644' ]
+804 silly gunzTarPerm extractEntry
+805 silly gunzTarPerm modified mode [ '', 511, 493 ]
+806 silly gunzTarPerm extractEntry
+807 silly gunzTarPerm modified mode [ '', 511, 493 ]
+808 silly gunzTarPerm extractEntry
+809 silly gunzTarPerm modified mode [ '', 511, 493 ]
+810 silly gunzTarPerm extractEntry
+811 silly gunzTarPerm modified mode [ '', 511, 493 ]
+812 silly gunzTarPerm extractEntry
+813 silly gunzTarPerm modified mode [ '', 511, 493 ]
+814 silly gunzTarPerm extractEntry
+815 silly gunzTarPerm modified mode [ '', 511, 493 ]
+816 silly gunzTarPerm extractEntry
+817 silly gunzTarPerm modified mode [ '', 511, 493 ]
+818 silly gunzTarPerm extractEntry
+819 silly gunzTarPerm modified mode [ '', 511, 493 ]
+820 silly gunzTarPerm extractEntry
+821 silly gunzTarPerm modified mode [ '', 511, 493 ]
+822 silly gunzTarPerm extractEntry
+823 silly gunzTarPerm modified mode [ '', 511, 493 ]
+824 silly gunzTarPerm extractEntry
+825 silly gunzTarPerm modified mode [ '', 511, 493 ]
+826 silly gunzTarPerm extractEntry
+827 silly gunzTarPerm modified mode [ '', 511, 493 ]
+828 silly gunzTarPerm extractEntry
+829 silly gunzTarPerm modified mode [ '', 511, 493 ]
+830 silly gunzTarPerm extractEntry
+831 silly gunzTarPerm modified mode [ '', 511, 493 ]
+832 silly gunzTarPerm extractEntry
+833 silly gunzTarPerm modified mode [ '', 511, 493 ]
+834 silly gunzTarPerm extractEntry
+835 silly gunzTarPerm modified mode [ '', 511, 493 ]
+836 silly gunzTarPerm extractEntry
+837 silly gunzTarPerm modified mode [ '', 511, 493 ]
+838 silly gunzTarPerm extractEntry
+839 silly gunzTarPerm modified mode [ '', 511, 493 ]
+840 silly gunzTarPerm extractEntry
+841 silly gunzTarPerm modified mode [ '', 511, 493 ]
+842 silly gunzTarPerm extractEntry
+843 silly gunzTarPerm modified mode [ '', 511, 493 ]
+844 silly gunzTarPerm extractEntry
+845 silly gunzTarPerm modified mode [ '', 511, 493 ]
+846 silly gunzTarPerm extractEntry
+847 silly gunzTarPerm modified mode [ '', 511, 493 ]
+848 silly gunzTarPerm extractEntry
+849 silly gunzTarPerm modified mode [ '', 511, 493 ]
+850 silly gunzTarPerm extractEntry
+851 silly gunzTarPerm modified mode [ '', 511, 493 ]
+852 silly gunzTarPerm extractEntry
+853 silly gunzTarPerm modified mode [ '', 511, 493 ]
+854 silly gunzTarPerm extractEntry
+855 silly gunzTarPerm modified mode [ '', 511, 493 ]
+856 silly gunzTarPerm extractEntry
+857 silly gunzTarPerm modified mode [ '', 511, 493 ]
+858 silly gunzTarPerm extractEntry
+859 silly gunzTarPerm modified mode [ '', 511, 493 ]
+860 silly gunzTarPerm extractEntry
+861 silly gunzTarPerm modified mode [ '', 511, 493 ]
+862 silly gunzTarPerm extractEntry
+863 silly gunzTarPerm modified mode [ '', 511, 493 ]
+864 silly gunzTarPerm extractEntry
+865 silly gunzTarPerm modified mode [ '', 511, 493 ]
+866 silly gunzTarPerm extractEntry
+867 silly gunzTarPerm modified mode [ '', 511, 493 ]
+868 silly gunzTarPerm extractEntry
+869 silly gunzTarPerm modified mode [ '', 511, 493 ]
+870 silly gunzTarPerm extractEntry
+871 silly gunzTarPerm modified mode [ '', 511, 493 ]
+872 silly gunzTarPerm extractEntry
+873 silly gunzTarPerm modified mode [ '', 511, 493 ]
+874 silly gunzTarPerm extractEntry
+875 silly gunzTarPerm modified mode [ '', 511, 493 ]
+876 silly gunzTarPerm extractEntry
+877 silly gunzTarPerm modified mode [ '', 511, 493 ]
+878 silly gunzTarPerm extractEntry
+879 silly gunzTarPerm modified mode [ '', 511, 493 ]
+880 silly gunzTarPerm extractEntry
+881 silly gunzTarPerm modified mode [ '', 511, 493 ]
+882 silly gunzTarPerm extractEntry
+883 silly gunzTarPerm modified mode [ '', 511, 493 ]
+884 silly gunzTarPerm extractEntry
+885 silly gunzTarPerm modified mode [ '', 511, 493 ]
+886 silly gunzTarPerm extractEntry
+887 silly gunzTarPerm modified mode [ '', 511, 493 ]
+888 silly gunzTarPerm extractEntry
+889 silly gunzTarPerm modified mode [ '', 511, 493 ]
+890 silly gunzTarPerm extractEntry
+891 silly gunzTarPerm modified mode [ '', 511, 493 ]
+892 silly gunzTarPerm extractEntry
+893 silly gunzTarPerm modified mode [ '', 511, 493 ]
+894 silly gunzTarPerm extractEntry
+895 silly gunzTarPerm modified mode [ '', 511, 493 ]
+896 silly gunzTarPerm extractEntry
+897 silly gunzTarPerm modified mode [ '', 511, 493 ]
+898 silly gunzTarPerm extractEntry
+899 silly gunzTarPerm modified mode [ '', 511, 493 ]
+900 silly gunzTarPerm extractEntry
+901 silly gunzTarPerm modified mode [ '', 511, 493 ]
+902 silly gunzTarPerm extractEntry
+903 silly gunzTarPerm modified mode [ '', 511, 493 ]
+904 silly gunzTarPerm extractEntry
+905 silly gunzTarPerm modified mode [ '', 511, 493 ]
+906 silly gunzTarPerm extractEntry
+907 silly gunzTarPerm modified mode [ '', 511, 493 ]
+908 silly gunzTarPerm extractEntry
+909 silly gunzTarPerm modified mode [ '', 511, 493 ]
+910 silly gunzTarPerm extractEntry
+911 silly gunzTarPerm modified mode [ '', 511, 493 ]
+912 silly gunzTarPerm extractEntry
+913 silly gunzTarPerm modified mode [ '', 511, 493 ]
+914 silly gunzTarPerm extractEntry
+915 silly gunzTarPerm modified mode [ '', 511, 493 ]
+916 silly gunzTarPerm extractEntry
+917 silly gunzTarPerm modified mode [ '', 511, 493 ]
+918 silly gunzTarPerm extractEntry
+919 silly gunzTarPerm modified mode [ '', 511, 493 ]
+920 silly gunzTarPerm extractEntry
+921 silly gunzTarPerm modified mode [ '', 511, 493 ]
+922 silly gunzTarPerm extractEntry
+923 silly gunzTarPerm modified mode [ '', 511, 493 ]
+924 silly gunzTarPerm extractEntry
+925 silly gunzTarPerm modified mode [ '', 511, 493 ]
+926 verbose unlock done using /Users/jinwoopark/.npm/_locks/types-node-a4679593d5045975.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+927 verbose about to build /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+928 verbose unlock done using /Users/jinwoopark/.npm/_locks/canvas-renderer-ea81a777ff4fac01.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+929 verbose about to build /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+930 verbose unlock done using /Users/jinwoopark/.npm/_locks/jdenticon-426ad85d191bf3d1.lock for /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+931 verbose stack Error: summernote@0.8.20 postinstall: `husky install`
+931 verbose stack spawn ENOENT
+931 verbose stack     at ChildProcess.<anonymous> (/Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node/node_modules/npm/lib/utils/spawn.js:17:16)
+931 verbose stack     at emitTwo (events.js:87:13)
+931 verbose stack     at ChildProcess.emit (events.js:172:7)
+931 verbose stack     at maybeClose (internal/child_process.js:829:16)
+931 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+932 verbose pkgid summernote@0.8.20
+933 verbose cwd /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+934 error Darwin 21.5.0
+935 error argv "/Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node/node" "/Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node/node_modules/npm/bin/npm-cli.js" "install"
+936 error node v4.6.0
+937 error npm  v2.15.9
+938 error file sh
+939 error code ELIFECYCLE
+940 error errno ENOENT
+941 error syscall spawn
+942 error summernote@0.8.20 postinstall: `husky install`
+942 error spawn ENOENT
+943 error Failed at the summernote@0.8.20 postinstall script 'husky install'.
+943 error This is most likely a problem with the summernote package,
+943 error not with npm itself.
+943 error Tell the author that this fails on your system:
+943 error     husky install
+943 error You can get information on how to open an issue for this project with:
+943 error     npm bugs summernote
+943 error Or if that isn't available, you can get their info via:
+943 error
+943 error     npm owner ls summernote
+943 error There is likely additional logging output above.
+944 verbose exit [ 1, true ]
+945 verbose unbuild node_modules/summernote
+946 info preuninstall summernote@0.8.20
+947 info uninstall summernote@0.8.20
+948 verbose unbuild rmStuff summernote@0.8.20 from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules
+949 info postuninstall summernote@0.8.20
+950 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+951 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+952 silly vacuum-fs purging /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/summernote
+953 silly vacuum-fs quitting because other entries in /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules
+954 verbose unbuild node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+955 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+956 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+957 silly vacuum-fs purging /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types/node
+958 silly vacuum-fs removing /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules/@types
+959 silly vacuum-fs removing /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer/node_modules
+960 silly vacuum-fs quitting because other entries in /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+961 verbose unbuild node_modules/jdenticon/node_modules/canvas-renderer
+962 info preuninstall canvas-renderer@2.2.0
+963 info uninstall canvas-renderer@2.2.0
+964 verbose unbuild rmStuff canvas-renderer@2.2.0 from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules
+965 verbose unbuild rmStuff in /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules
+966 info postuninstall canvas-renderer@2.2.0
+967 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+968 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+969 silly vacuum-fs purging /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules/canvas-renderer
+970 silly vacuum-fs removing /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon/node_modules
+971 silly vacuum-fs quitting because other entries in /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+972 verbose unbuild node_modules/jdenticon
+973 info preuninstall jdenticon@3.1.1
+974 info uninstall jdenticon@3.1.1
+975 verbose unbuild rmStuff jdenticon@3.1.1 from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules
+976 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/.bin/jdenticon is being gently removed
+977 silly gentlyRm verifying /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static is an npm working directory
+978 silly gentlyRm containing path /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static is under npm's control, in /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+979 silly gentlyRm deletion target /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/.bin/jdenticon is under /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+980 verbose gentlyRm vacuuming from /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/.bin/jdenticon up to /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+981 info postuninstall jdenticon@3.1.1
+982 silly gentlyRm /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon is being purged from base /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static
+983 verbose gentlyRm don't care about contents; nuking /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+984 silly vacuum-fs purging /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules/jdenticon
+985 silly vacuum-fs quitting because other entries in /Users/jinwoopark/Desktop/git/studyolle/src/main/resources/static/node_modules
